@@ -225,7 +225,7 @@ func _on_rock_bullet_button_pressed() -> void:
 
 func _on_magic_missile_button_pressed() -> void:
 	current_spell = 'Magic Missile'
-	current_spell_animation = 'magic_missle'
+	current_spell_animation = 'magic_missile'
 	set_text('Magic Missile')
 
 func _on_chain_lightning_button_pressed() -> void:

@@ -1,4 +1,4 @@
-[gd_scene load_steps=540 format=3 uid="uid://cqow47bch5ocs"]
+[gd_scene load_steps=546 format=3 uid="uid://cqow47bch5ocs"]
 
 [ext_resource type="Script" uid="uid://bs2qeucwtife5" path="res://main.gd" id="1_0xm2m"]
 [ext_resource type="FontFile" uid="uid://cuewmctm1qfdf" path="res://Fonts/Papyrus.ttc" id="1_ig7tw"]
@@ -13,8 +13,11 @@
 [ext_resource type="Texture2D" uid="uid://bxh6mtecfnmrd" path="res://Art/Website-Icons/play-icon-darkmode.png" id="9_hrvbo"]
 [ext_resource type="Script" uid="uid://bb52eaws2d10f" path="res://gallery.gd" id="9_xuqvo"]
 [ext_resource type="Texture2D" uid="uid://d2ct4j0b68bl2" path="res://Art/Sword-Icons/Leaf-Blade.png" id="10_cegan"]
+[ext_resource type="Texture2D" uid="uid://dqoggr3q7o4en" path="res://Art/Website-Icons/previous-icon-darkmode.png" id="10_kkkcx"]
+[ext_resource type="Script" uid="uid://b4tbm6e4klcg0" path="res://credits.gd" id="11_0dhbp"]
 [ext_resource type="Texture2D" uid="uid://db6swvhdknrml" path="res://Art/Sword-Icons/Fire-Sword.png" id="11_82xsv"]
 [ext_resource type="Texture2D" uid="uid://cli2dalhfbbfr" path="res://Art/Sword-Icons/Poison-Sword.png" id="12_getpj"]
+[ext_resource type="Texture2D" uid="uid://hfig2f80kyqu" path="res://Art/Website-Icons/previous-icon-lightmode.png" id="12_jx0wj"]
 [ext_resource type="Texture2D" uid="uid://ccfndm87p2rgi" path="res://Art/Sword-Icons/Lightning-Sword.png" id="13_ryguw"]
 [ext_resource type="Texture2D" uid="uid://c7sfd6wmrc06h" path="res://Art/Sword-Icons/Slime-Sword.png" id="14_d13ii"]
 [ext_resource type="Texture2D" uid="uid://cbo5v452n2xu2" path="res://Art/Sword-Icons/Gladius.png" id="15_1u8w0"]
@@ -284,6 +287,90 @@ tracks/12/keys = {
 "update": 0,
 "values": [Color(0, 0, 0, 0.5019608)]
 }
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Credits/Roles:theme_override_colors/default_color")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("Credits/Next:icon")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("49_sm6fg")]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("Credits/Previous:icon")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("12_jx0wj")]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("Credits/Next:modulate")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("Credits/Previous:modulate")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("Credits/Name:modulate")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("Credits/Roles:modulate")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
 
 [sub_resource type="Animation" id="Animation_7mycd"]
 resource_name = "dark_mode"
@@ -443,6 +530,66 @@ tracks/12/keys = {
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [Color(0, 0, 0, 0.5019608), Color(1, 1, 1, 0.5019608)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Credits/Roles:theme_override_colors/default_color")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("Credits/Next:icon")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 0.25),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [ExtResource("49_sm6fg"), ExtResource("9_hrvbo")]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("Credits/Previous:icon")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0, 0.25),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [ExtResource("12_jx0wj"), ExtResource("10_kkkcx")]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("Credits/Next:modulate")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0, 0.25, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("Credits/Previous:modulate")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0, 0.25, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
 }
 
 [sub_resource type="Resource" id="Resource_5vw27"]
@@ -607,13 +754,133 @@ tracks/12/keys = {
 "update": 0,
 "values": [Color(1, 1, 1, 0.5019608), Color(0, 0, 0, 0.5019608)]
 }
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Credits/Roles:theme_override_colors/default_color")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("Credits/Next:icon")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 0.25),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [ExtResource("9_hrvbo"), ExtResource("49_sm6fg")]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("Credits/Previous:modulate")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0, 0.25, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("Credits/Previous:icon")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0, 0.25),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [ExtResource("10_kkkcx"), ExtResource("12_jx0wj")]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("Credits/Next:modulate")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0, 0.25, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_kkkcx"]
+resource_name = "credits_fade_out"
+length = 0.25
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Credits/Name:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.25),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Credits/Roles:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.25),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_34ol3"]
+resource_name = "credits_fade_in"
+length = 0.25
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Credits/Name:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.25),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Credits/Roles:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.25),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_kek77"]
 _data = {
 &"RESET": SubResource("Animation_272bh"),
+&"credits_fade_in": SubResource("Animation_34ol3"),
+&"credits_fade_out": SubResource("Animation_kkkcx"),
 &"dark_mode": SubResource("Animation_7mycd"),
 &"light_mode": SubResource("Animation_5vw27")
 }
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kkkcx"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_h0sjo"]
 
@@ -4123,8 +4390,9 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Credits" type="Node2D" parent="."]
+script = ExtResource("11_0dhbp")
 
-[node name="RichTextLabel" type="RichTextLabel" parent="Credits"]
+[node name="Title" type="RichTextLabel" parent="Credits"]
 offset_left = 3030.0
 offset_top = 88.0
 offset_right = 3654.0
@@ -4137,27 +4405,54 @@ text = "[outline_size=5]CREDITS[/outline_size]"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="CreditsContainer" type="ScrollContainer" parent="Credits"]
-offset_left = 2964.0
-offset_top = 176.0
-offset_right = 3714.0
-offset_bottom = 560.0
-
-[node name="RichTextLabel" type="RichTextLabel" parent="Credits/CreditsContainer"]
-layout_mode = 2
-size_flags_horizontal = 3
-size_flags_vertical = 3
+[node name="Name" type="RichTextLabel" parent="Credits"]
+offset_left = 3185.0
+offset_top = 188.0
+offset_right = 3488.0
+offset_bottom = 237.0
 theme_override_colors/default_color = Color(1, 1, 0, 1)
 theme_override_fonts/normal_font = ExtResource("1_ig7tw")
-theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/normal_font_size = 30
 bbcode_enabled = true
-text = "[outline_size=5]										Avery Johnson: 										Programmer
+text = "[outline_size=3]Avery Johnson[/outline_size]"
+horizontal_alignment = 1
+vertical_alignment = 1
 
-										Tomas Urena: 											Programmer
+[node name="Roles" type="RichTextLabel" parent="Credits"]
+modulate = Color(1, 1, 1, 0)
+offset_left = 3040.0
+offset_top = 256.0
+offset_right = 3634.0
+offset_bottom = 840.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 25
+text = "Gameplay systems developer
 
-										Jacob Mueller: 										Programmer
+Animator of player animations
 
-										Dalton Washam: 										Artist[/outline_size]"
+Icon artist for swords, spellbooks, and potions
+
+UI developer"
+
+[node name="Previous" type="Button" parent="Credits"]
+offset_left = 2928.0
+offset_top = 512.0
+offset_right = 3003.0
+offset_bottom = 584.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_kkkcx")
+icon = ExtResource("12_jx0wj")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Next" type="Button" parent="Credits"]
+offset_left = 3672.0
+offset_top = 512.0
+offset_right = 3747.0
+offset_bottom = 584.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_kkkcx")
+icon = ExtResource("49_sm6fg")
+icon_alignment = 1
+expand_icon = true
 
 [node name="Gallery" type="Node2D" parent="."]
 script = ExtResource("9_xuqvo")
@@ -4539,6 +4834,8 @@ animation = &"poison_sword_block"
 [connection signal="pressed" from="UI/HBoxContainer/Credits" to="." method="_on_credits_pressed"]
 [connection signal="pressed" from="UI/HBoxContainer/Gallery" to="." method="_on_gallery_pressed"]
 [connection signal="pressed" from="UI/DarkModeButton" to="." method="_on_dark_mode_button_pressed"]
+[connection signal="pressed" from="Credits/Previous" to="." method="_on_previous_pressed"]
+[connection signal="pressed" from="Credits/Next" to="." method="_on_next_pressed"]
 [connection signal="pressed" from="Gallery/SwordsButton" to="Gallery" method="_on_swords_button_pressed"]
 [connection signal="pressed" from="Gallery/SpellsButton" to="Gallery" method="_on_spells_button_pressed"]
 [connection signal="pressed" from="Gallery/SwordsContainer/GridContainer/WoodenSwordButton" to="Gallery" method="_on_wooden_sword_button_pressed"]

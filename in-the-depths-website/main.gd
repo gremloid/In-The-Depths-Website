@@ -8,6 +8,9 @@ var offset = 80
 
 @onready var center = $CenterNodes/MainPageCenter.global_position
 
+func _ready():
+	$Credits/Roles.modulate = 'WHITE'
+
 func _process(delta):
 	# 1. Get the current mouse position in the viewport
 	var mouse_pos = get_viewport().get_mouse_position()
@@ -99,3 +102,15 @@ func _on_credits_pressed() -> void:
 	center_camera_x()
 	center_camera_y()
 	$Camera2D.position_smoothing_speed = 2
+
+func _on_previous_pressed() -> void:
+	$AnimationPlayer.play('credits_fade_out')
+	await $AnimationPlayer.animation_finished
+	$Credits.previous_pressed()
+	$AnimationPlayer.play('credits_fade_in')
+
+func _on_next_pressed() -> void:
+	$AnimationPlayer.play('credits_fade_out')
+	await $AnimationPlayer.animation_finished
+	$Credits.next_pressed()
+	$AnimationPlayer.play('credits_fade_in')
