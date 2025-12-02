@@ -2,6 +2,11 @@ extends Node2D
 
 var current_half_x = 'none'
 var current_half_y = 'none'
+var is_dark_mode = false
+
+var offset = 80
+
+@onready var center = $CenterNodes/MainPageCenter.global_position
 
 func _process(delta):
 	# 1. Get the current mouse position in the viewport
@@ -16,31 +21,37 @@ func _process(delta):
 	var midpoint_y = viewport_height / 2
 
 	# 4. Compare the mouse position to the midpoint
-	if mouse_pos.x < midpoint_x:
+	if mouse_pos.x < midpoint_x - offset:
 		if current_half_x != 'left':
 			if current_half_x == 'right':
 				camera_left()
 			current_half_x = 'left'
 			camera_left()
-	elif mouse_pos.x > midpoint_x:
+	elif mouse_pos.x > midpoint_x + offset:
 		if current_half_x != 'right':
 			if current_half_x == 'left':
 				camera_right()
 			current_half_x = 'right'
 			camera_right()
+	else:
+		current_half_x = 'none'
+		center_camera_x()
 	
-	if mouse_pos.y > midpoint_y:
+	if mouse_pos.y > midpoint_y + offset:
 		if current_half_y != 'bottom':
 			if current_half_y == 'top':
 				camera_down()
 			current_half_y = 'bottom'
 			camera_down()
-	elif mouse_pos.y < midpoint_y:
+	elif mouse_pos.y < midpoint_y - offset:
 		if current_half_y != 'top':
 			if current_half_y == 'bottom':
 				camera_up()
 			current_half_y = 'top'
 			camera_up()
+	else:
+		current_half_y = 'none'
+		center_camera_y()
 
 func camera_down():
 	$Camera2D.global_position.y += 20
@@ -53,3 +64,31 @@ func camera_left():
 
 func camera_right():
 	$Camera2D.global_position.x += 20
+
+func center_camera_y():
+	$Camera2D.global_position.y = center.y
+
+func center_camera_x():
+	$Camera2D.global_position.x = center.x
+
+func _on_dark_mode_button_pressed() -> void:
+	if is_dark_mode:
+		$AnimationPlayer.play('light_mode')
+		is_dark_mode = false
+	else:
+		$AnimationPlayer.play('dark_mode')
+		is_dark_mode = true
+
+func _on_home_button_pressed() -> void:
+	center = $CenterNodes/MainPageCenter.global_position
+	$Camera2D.position_smoothing_speed = 5
+	center_camera_x()
+	center_camera_y()
+	$Camera2D.position_smoothing_speed = 2
+
+func _on_gallery_pressed() -> void:
+	center = $CenterNodes/GalleryCenter.global_position
+	$Camera2D.position_smoothing_speed = 5
+	center_camera_x()
+	center_camera_y()
+	$Camera2D.position_smoothing_speed = 2
