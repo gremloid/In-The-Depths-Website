@@ -4096,6 +4096,9 @@ position = Vector2(800, 448)
 
 [node name="MainPageCenter" type="Node2D" parent="CenterNodes"]
 
+[node name="CreditsCenter" type="Node2D" parent="CenterNodes"]
+position = Vector2(2540, 0)
+
 [node name="GalleryCenter" type="Node2D" parent="CenterNodes"]
 position = Vector2(5280, 0)
 
@@ -4118,6 +4121,43 @@ bbcode_enabled = true
 text = "[outline_size=5]IN THE DEPTHS[/outline_size]"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Credits" type="Node2D" parent="."]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Credits"]
+offset_left = 3030.0
+offset_top = 88.0
+offset_right = 3654.0
+offset_bottom = 200.0
+theme_override_colors/default_color = Color(1, 1, 0, 1)
+theme_override_fonts/normal_font = ExtResource("1_ig7tw")
+theme_override_font_sizes/normal_font_size = 60
+bbcode_enabled = true
+text = "[outline_size=5]CREDITS[/outline_size]"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CreditsContainer" type="ScrollContainer" parent="Credits"]
+offset_left = 2964.0
+offset_top = 176.0
+offset_right = 3714.0
+offset_bottom = 560.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Credits/CreditsContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_colors/default_color = Color(1, 1, 0, 1)
+theme_override_fonts/normal_font = ExtResource("1_ig7tw")
+theme_override_font_sizes/normal_font_size = 24
+bbcode_enabled = true
+text = "[outline_size=5]										Avery Johnson: 										Programmer
+
+										Tomas Urena: 											Programmer
+
+										Jacob Mueller: 										Programmer
+
+										Dalton Washam: 										Artist[/outline_size]"
 
 [node name="Gallery" type="Node2D" parent="."]
 script = ExtResource("9_xuqvo")
@@ -4496,6 +4536,7 @@ sprite_frames = SubResource("SpriteFrames_cyx1q")
 animation = &"poison_sword_block"
 
 [connection signal="pressed" from="UI/HBoxContainer/HomeButton" to="." method="_on_home_button_pressed"]
+[connection signal="pressed" from="UI/HBoxContainer/Credits" to="." method="_on_credits_pressed"]
 [connection signal="pressed" from="UI/HBoxContainer/Gallery" to="." method="_on_gallery_pressed"]
 [connection signal="pressed" from="UI/DarkModeButton" to="." method="_on_dark_mode_button_pressed"]
 [connection signal="pressed" from="Gallery/SwordsButton" to="Gallery" method="_on_swords_button_pressed"]
