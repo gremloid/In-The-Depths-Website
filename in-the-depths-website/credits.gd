@@ -1,7 +1,7 @@
 extends Node2D
 
 var avery_text = 'Gameplay systems developer\n\nAnimator of player animations\n\nIcon artist for swords, spellbooks, and potions\n\nUI developer'
-var tomas_text = 'Gameplay systems developer\n\nLore master\n\nIcon artist for items'
+var tomas_text = 'Gameplay systems developer\n\nLore master\n\nIcon artist for items\n\nDetails: '
 var jacob_text = 'Gameplay systems developer\n\nBackground artist\n\nMenu artist\n\nEnemy artist\n\nIcon artist for potions and spellbooks'
 var dalton_text = 'Enemy artist'
 

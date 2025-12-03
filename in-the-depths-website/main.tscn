@@ -1,4 +1,4 @@
-[gd_scene load_steps=546 format=3 uid="uid://cqow47bch5ocs"]
+[gd_scene load_steps=549 format=3 uid="uid://cqow47bch5ocs"]
 
 [ext_resource type="Script" uid="uid://bs2qeucwtife5" path="res://main.gd" id="1_0xm2m"]
 [ext_resource type="FontFile" uid="uid://cuewmctm1qfdf" path="res://Fonts/Papyrus.ttc" id="1_ig7tw"]
@@ -18,7 +18,9 @@
 [ext_resource type="Texture2D" uid="uid://db6swvhdknrml" path="res://Art/Sword-Icons/Fire-Sword.png" id="11_82xsv"]
 [ext_resource type="Texture2D" uid="uid://cli2dalhfbbfr" path="res://Art/Sword-Icons/Poison-Sword.png" id="12_getpj"]
 [ext_resource type="Texture2D" uid="uid://hfig2f80kyqu" path="res://Art/Website-Icons/previous-icon-lightmode.png" id="12_jx0wj"]
+[ext_resource type="Texture2D" uid="uid://dg0gibdh8umtl" path="res://Art/Website-Icons/First_Idea.png" id="13_34ol3"]
 [ext_resource type="Texture2D" uid="uid://ccfndm87p2rgi" path="res://Art/Sword-Icons/Lightning-Sword.png" id="13_ryguw"]
+[ext_resource type="Texture2D" uid="uid://yq1b75v42c1b" path="res://Art/Website-Icons/LastGameplayVersion.png" id="14_c2n8d"]
 [ext_resource type="Texture2D" uid="uid://c7sfd6wmrc06h" path="res://Art/Sword-Icons/Slime-Sword.png" id="14_d13ii"]
 [ext_resource type="Texture2D" uid="uid://cbo5v452n2xu2" path="res://Art/Sword-Icons/Gladius.png" id="15_1u8w0"]
 [ext_resource type="Texture2D" uid="uid://ddrvmkp5ujtd3" path="res://Art/Sword-Icons/Ol-Slashy.png" id="16_0odxb"]
@@ -73,6 +75,7 @@
 [ext_resource type="Texture2D" uid="uid://d0ot8d71qx216" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Slime-Sword-Player-Sprite-Block.png" id="60_c2n8d"]
 [ext_resource type="Texture2D" uid="uid://cf8d4gq5bldq6" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Wooden-Axe-Player-Block.png" id="62_wy5fy"]
 [ext_resource type="Texture2D" uid="uid://bxqglfi8wfp4p" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Wooden-Sword-Player-Sprite-Block.png" id="64_gx4rg"]
+[ext_resource type="Texture2D" uid="uid://dqinq3btk0eyk" path="res://Art/Website-Icons/FirstRendition.png" id="76_wy5fy"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0xm2m"]
 bg_color = Color(0.15686275, 0.15686275, 0.15686275, 0.84705883)
@@ -370,6 +373,62 @@ tracks/19/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 0,
 "values": [Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_34ol3"]
+resource_name = "credits_fade_in"
+length = 0.25
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Credits/Name:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.25),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Credits/Roles:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.25),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_kkkcx"]
+resource_name = "credits_fade_out"
+length = 0.25
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Credits/Name:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.25),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Credits/Roles:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.25),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
 }
 
 [sub_resource type="Animation" id="Animation_7mycd"]
@@ -813,62 +872,6 @@ tracks/17/keys = {
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
 "values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
-}
-
-[sub_resource type="Animation" id="Animation_kkkcx"]
-resource_name = "credits_fade_out"
-length = 0.25
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Credits/Name:modulate")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.25),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("Credits/Roles:modulate")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0, 0.25),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
-}
-
-[sub_resource type="Animation" id="Animation_34ol3"]
-resource_name = "credits_fade_in"
-length = 0.25
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Credits/Name:modulate")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.25),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("Credits/Roles:modulate")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0, 0.25),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_kek77"]
@@ -4327,6 +4330,15 @@ theme_override_styles/hover = ExtResource("3_lquwl")
 theme_override_styles/focus = SubResource("StyleBoxFlat_4c57u")
 text = "Credits"
 
+[node name="Developement" type="Button" parent="UI/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/normal = ExtResource("2_1bvp3")
+theme_override_styles/pressed = ExtResource("2_1bvp3")
+theme_override_styles/hover = ExtResource("3_lquwl")
+theme_override_styles/focus = SubResource("StyleBoxFlat_4c57u")
+text = "Developement"
+
 [node name="Gallery" type="Button" parent="UI/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -4366,8 +4378,11 @@ position = Vector2(800, 448)
 [node name="CreditsCenter" type="Node2D" parent="CenterNodes"]
 position = Vector2(2540, 0)
 
+[node name="DevelopementCenter" type="Node2D" parent="CenterNodes"]
+position = Vector2(5022.8877, -7)
+
 [node name="GalleryCenter" type="Node2D" parent="CenterNodes"]
-position = Vector2(5280, 0)
+position = Vector2(7344, 3.0517578e-05)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
@@ -4421,9 +4436,9 @@ vertical_alignment = 1
 [node name="Roles" type="RichTextLabel" parent="Credits"]
 modulate = Color(1, 1, 1, 0)
 offset_left = 3040.0
-offset_top = 256.0
+offset_top = 272.0
 offset_right = 3634.0
-offset_bottom = 840.0
+offset_bottom = 856.0
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/normal_font_size = 25
 text = "Gameplay systems developer
@@ -4458,24 +4473,24 @@ expand_icon = true
 script = ExtResource("9_xuqvo")
 
 [node name="SwordsButton" type="Button" parent="Gallery"]
-offset_left = 5376.0
-offset_top = 136.0
-offset_right = 5441.0
-offset_bottom = 167.0
+offset_left = 7440.0
+offset_top = 136.00003
+offset_right = 7505.0
+offset_bottom = 167.00003
 text = "Swords"
 
 [node name="SpellsButton" type="Button" parent="Gallery"]
-offset_left = 5456.0
-offset_top = 136.0
-offset_right = 5521.0
-offset_bottom = 167.0
+offset_left = 7520.0
+offset_top = 136.00003
+offset_right = 7585.0
+offset_bottom = 167.00003
 text = "Spells"
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Gallery"]
-offset_left = 5768.0
-offset_top = 88.0
-offset_right = 6392.0
-offset_bottom = 200.0
+offset_left = 7832.0
+offset_top = 88.00003
+offset_right = 8456.0
+offset_bottom = 200.00003
 theme_override_colors/default_color = Color(1, 1, 0, 1)
 theme_override_fonts/normal_font = ExtResource("1_ig7tw")
 theme_override_font_sizes/normal_font_size = 60
@@ -4485,9 +4500,9 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="SwordsContainer" type="ScrollContainer" parent="Gallery"]
-offset_left = 5376.0
-offset_top = 176.0
-offset_right = 6784.0
+offset_left = 7440.0
+offset_top = 176.00003
+offset_right = 8848.0
 offset_bottom = 560.0
 
 [node name="GridContainer" type="GridContainer" parent="Gallery/SwordsContainer"]
@@ -4775,9 +4790,9 @@ expand_icon = true
 
 [node name="PlayButton" type="Button" parent="Gallery"]
 modulate = Color(1, 1, 1, 0)
-offset_left = 6048.0
+offset_left = 8112.0
 offset_top = 576.0
-offset_right = 6108.0
+offset_right = 8172.0
 offset_bottom = 640.0
 theme_override_styles/normal = SubResource("StyleBoxEmpty_h0sjo")
 icon = ExtResource("49_sm6fg")
@@ -4785,9 +4800,9 @@ icon_alignment = 1
 expand_icon = true
 
 [node name="TypeButton" type="Button" parent="Gallery"]
-offset_left = 6136.0
+offset_left = 8200.0
 offset_top = 592.0
-offset_right = 6216.0
+offset_right = 8280.0
 offset_bottom = 624.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
@@ -4799,9 +4814,9 @@ theme_override_styles/normal = SubResource("StyleBoxEmpty_hrvbo")
 text = "Attack"
 
 [node name="CurrentLabel" type="Label" parent="Gallery"]
-offset_left = 5384.0
+offset_left = 7448.0
 offset_top = 576.0
-offset_right = 5689.0
+offset_right = 7753.0
 offset_bottom = 618.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 30
@@ -4811,27 +4826,118 @@ text = "Current Sword: None"
 
 [node name="PlayerArms" type="AnimatedSprite2D" parent="Gallery/PlayerAnimations"]
 texture_filter = 1
-position = Vector2(6080, 447.99997)
+position = Vector2(8144, 448)
 scale = Vector2(7, 7)
 sprite_frames = SubResource("SpriteFrames_wu3dr")
 animation = &"punch"
 
 [node name="PlayerSpell" type="AnimatedSprite2D" parent="Gallery/PlayerAnimations"]
 texture_filter = 1
-position = Vector2(6080, 448)
+position = Vector2(8144, 448.00003)
 scale = Vector2(7, 7)
 sprite_frames = SubResource("SpriteFrames_8igct")
 animation = &"lightning_bolt"
 
 [node name="PlayerSword" type="AnimatedSprite2D" parent="Gallery/PlayerAnimations"]
 texture_filter = 1
-position = Vector2(6080, 448)
+position = Vector2(8144, 448.00003)
 scale = Vector2(7, 7)
 sprite_frames = SubResource("SpriteFrames_cyx1q")
 animation = &"poison_sword_block"
 
+[node name="Developement" type="Node2D" parent="."]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Developement"]
+offset_left = 5510.8877
+offset_top = 80.0
+offset_right = 6134.8877
+offset_bottom = 192.0
+theme_override_colors/default_color = Color(1, 1, 0, 1)
+theme_override_fonts/normal_font = ExtResource("1_ig7tw")
+theme_override_font_sizes/normal_font_size = 60
+bbcode_enabled = true
+text = "[outline_size=5]DEVELOPEMENT[/outline_size]"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="FirstIdea" type="Sprite2D" parent="Developement"]
+position = Vector2(5822.8877, 553)
+scale = Vector2(0.113514, 0.11351397)
+texture = ExtResource("13_34ol3")
+
+[node name="FinalGameplayUI" type="Sprite2D" parent="Developement"]
+position = Vector2(5822.8887, 1169)
+scale = Vector2(0.4982639, 0.49826387)
+texture = ExtResource("14_c2n8d")
+
+[node name="FirstAttempt" type="Sprite2D" parent="Developement"]
+position = Vector2(5822.8877, 1593.0001)
+scale = Vector2(0.54152966, 0.5415296)
+texture = ExtResource("76_wy5fy")
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Developement"]
+offset_left = 5598.8877
+offset_top = 225.0
+offset_right = 6046.8877
+offset_bottom = 294.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+text = "This was the first Idea of how the game was going to look."
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="Developement"]
+offset_left = 5598.8877
+offset_top = 953.0
+offset_right = 6054.8877
+offset_bottom = 1022.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+text = "This was how the game looked at the end of the semester."
+
+[node name="RichTextLabel4" type="RichTextLabel" parent="Developement"]
+offset_left = 5720.0
+offset_top = 1376.0
+offset_right = 5952.0
+offset_bottom = 1408.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+text = "At the start of the semester..."
+
+[node name="RichTextLabel5" type="RichTextLabel" parent="Developement"]
+offset_left = 5560.0
+offset_top = 1824.0
+offset_right = 6104.0
+offset_bottom = 2056.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 30
+text = "     For the first Sprint we focused on too many things. One team member was working on the Shop and another was focusing on the Art. "
+
+[node name="RichTextLabel6" type="RichTextLabel" parent="Developement"]
+offset_left = 5472.0
+offset_top = 2048.0
+offset_right = 6176.0
+offset_bottom = 2224.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 30
+text = "     For the second Sprint we were working on fleshing out the game. Making the game more of a challenege but at the same time having the player feel like their getting stronger. "
+
+[node name="RichTextLabel7" type="RichTextLabel" parent="Developement"]
+offset_left = 5472.0
+offset_top = 2296.0
+offset_right = 6176.0
+offset_bottom = 2472.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 30
+text = "     For the third Sprint we wanted to add more restrections in the game. We wanted the player to feel the need to get stronger quick. "
+
+[node name="RichTextLabel8" type="RichTextLabel" parent="Developement"]
+offset_left = 5448.0
+offset_top = 2496.0
+offset_right = 6200.0
+offset_bottom = 2712.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 30
+text = "     For the fourth sprint we focused on making the game harder as the player continued. We wanted the player to have a reason to continue playing. As well as the ability to get stronger quicker compared to the early game."
+
 [connection signal="pressed" from="UI/HBoxContainer/HomeButton" to="." method="_on_home_button_pressed"]
 [connection signal="pressed" from="UI/HBoxContainer/Credits" to="." method="_on_credits_pressed"]
+[connection signal="pressed" from="UI/HBoxContainer/Developement" to="." method="_on_developement_pressed"]
 [connection signal="pressed" from="UI/HBoxContainer/Gallery" to="." method="_on_gallery_pressed"]
 [connection signal="pressed" from="UI/DarkModeButton" to="." method="_on_dark_mode_button_pressed"]
 [connection signal="pressed" from="Credits/Previous" to="." method="_on_previous_pressed"]
