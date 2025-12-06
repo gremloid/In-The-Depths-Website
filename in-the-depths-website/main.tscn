@@ -1,4 +1,4 @@
-[gd_scene load_steps=549 format=3 uid="uid://cqow47bch5ocs"]
+[gd_scene load_steps=594 format=3 uid="uid://cqow47bch5ocs"]
 
 [ext_resource type="Script" uid="uid://bs2qeucwtife5" path="res://main.gd" id="1_0xm2m"]
 [ext_resource type="FontFile" uid="uid://cuewmctm1qfdf" path="res://Fonts/Papyrus.ttc" id="1_ig7tw"]
@@ -46,25 +46,39 @@
 [ext_resource type="Texture2D" uid="uid://b3fi11jcec146" path="res://Art/Spell Icons/Chain Lightning Spellbook Shop Icon.png" id="33_b1qrp"]
 [ext_resource type="Texture2D" uid="uid://hlxj3iilkff5" path="res://Art/Player-Sprites/Sword-Sprites/Attack-Sprites/Frost_Axe_Player_Sword_Attack.png" id="34_6iyjs"]
 [ext_resource type="Texture2D" uid="uid://cakge11q6dh0f" path="res://Art/Spell Icons/Gun Spellbook Shop Icon.png" id="34_come4"]
+[ext_resource type="Texture2D" uid="uid://bjr2leynw34n8" path="res://Art/Enemy-Icons/Bug_Sprite.png" id="35_4obbf"]
 [ext_resource type="Texture2D" uid="uid://bgoqlenucwgo5" path="res://Art/Player-Sprites/Sword-Sprites/Attack-Sprites/Lightning-Sword-Player-Sprite-Attack.png" id="35_4w656"]
 [ext_resource type="Texture2D" uid="uid://ffan0brk65e2" path="res://Art/Player-Sprites/Sword-Sprites/Attack-Sprites/Ol-Slashy-Sprite-Attack.png" id="36_e71vb"]
+[ext_resource type="Texture2D" uid="uid://dfrcr7sh013k2" path="res://Art/Enemy-Icons/Spider_Sprite.png" id="36_ovcoh"]
 [ext_resource type="Texture2D" uid="uid://oqx78gc1xhq0" path="res://Art/Player-Sprites/Spell-Sprites/Chain-Lightning-Player-Sprite.png" id="37_cyx1q"]
+[ext_resource type="Texture2D" uid="uid://cm1mcx4i3ubj3" path="res://Art/Enemy-Icons/Zombie_Sprite.png" id="37_ppx11"]
 [ext_resource type="Texture2D" uid="uid://daick0qe5v8m5" path="res://Art/Player-Sprites/Sword-Sprites/Attack-Sprites/Poison-Sword-Player-Sprite-Attack.png" id="37_rnkwl"]
 [ext_resource type="Texture2D" uid="uid://5a1hf0wcydks" path="res://Art/Player-Sprites/Spell-Sprites/fireball-player-sprite.png" id="38_0dhbp"]
+[ext_resource type="Texture2D" uid="uid://dslfe11ul2l5h" path="res://Art/Enemy-Icons/Skeleton_Sprite.png" id="38_1yv1y"]
 [ext_resource type="Texture2D" uid="uid://dtlkskskrfcwy" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Balibar-Player-Sword-Block.png" id="38_b17eg"]
 [ext_resource type="Texture2D" uid="uid://d3m861pn321ph" path="res://Art/Player-Sprites/Sword-Sprites/Attack-Sprites/Saber-Of-Light-Player-Sprite-Attack.png" id="38_vke2r"]
+[ext_resource type="Texture2D" uid="uid://b2bw0w6g2ktik" path="res://Art/Enemy-Icons/Thief_Sprite.png" id="39_5yh34"]
 [ext_resource type="Texture2D" uid="uid://cyjgyiheu3pdd" path="res://Art/Player-Sprites/Spell-Sprites/gun-player-sprite.png" id="39_jx0wj"]
 [ext_resource type="Texture2D" uid="uid://d20f0beknwqtm" path="res://Art/Player-Sprites/Sword-Sprites/Attack-Sprites/Shield-On-A-Stick-Player-Sprite-Attack.png" id="39_uit24"]
 [ext_resource type="Texture2D" uid="uid://c4he1jo4l6k4r" path="res://Art/Player-Sprites/Spell-Sprites/Magic-Missile-Player-Sprite.png" id="40_kkkcx"]
+[ext_resource type="Texture2D" uid="uid://c4rw8p331c07d" path="res://Art/Enemy-Icons/GREMLIN.png" id="40_n5t1e"]
 [ext_resource type="Texture2D" uid="uid://b8ewuds0awjn8" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Flame-Sword-Player-Sprite-Block.png" id="40_ntx8l"]
 [ext_resource type="Texture2D" uid="uid://ccec37wiix2e2" path="res://Art/Player-Sprites/Sword-Sprites/Attack-Sprites/Slime-Sword-Player-Sprite-Attack.png" id="40_ruth0"]
 [ext_resource type="Texture2D" uid="uid://c6xr3w5bb5iyr" path="res://Art/Player-Sprites/Spell-Sprites/lightning-bolt-player-sprite.png" id="41_34ol3"]
+[ext_resource type="Texture2D" uid="uid://8bmju2lh7wng" path="res://Art/Enemy-Icons/DEMON.png" id="41_h6isl"]
 [ext_resource type="Texture2D" uid="uid://c2244ko7vxu5u" path="res://Art/Player-Sprites/Sword-Sprites/Attack-Sprites/Wooden_Axe_Player_Sword_Attack.png" id="41_rm4vd"]
+[ext_resource type="Texture2D" uid="uid://cho2skjcwsyra" path="res://Art/Enemy-Sprites/DEMON.png" id="42_53bls"]
 [ext_resource type="Texture2D" uid="uid://bul45a872uxr6" path="res://Art/Player-Sprites/Spell-Sprites/Rock-Squash-Player-Sprite.png" id="42_c2n8d"]
 [ext_resource type="Texture2D" uid="uid://cbwrms1o38su" path="res://Art/Player-Sprites/Sword-Sprites/Attack-Sprites/Wooden-Sword-Player-Sprite-Attack.png" id="42_pjyto"]
 [ext_resource type="Texture2D" uid="uid://djcvc1xb0el2p" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Gladius-Player-Sprite-Block.png" id="42_uatky"]
+[ext_resource type="Texture2D" uid="uid://csst165gg23bj" path="res://Art/Enemy-Sprites/bug-sprite.png" id="43_lwnsi"]
+[ext_resource type="Texture2D" uid="uid://ng3onoe0rbdt" path="res://Art/Enemy-Sprites/GREMLIN.png" id="44_41lik"]
 [ext_resource type="Texture2D" uid="uid://c3movyd8te5db" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Katana-Player-Sprite-Block.png" id="44_rqtf5"]
+[ext_resource type="Texture2D" uid="uid://bdyeonegnrqdj" path="res://Art/Enemy-Sprites/Skeleton_Sprite.png" id="45_jbvwl"]
 [ext_resource type="Texture2D" uid="uid://v468hu2pio1f" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Leaf-Blade-Player-Sprite-Block.png" id="46_1vm84"]
+[ext_resource type="Texture2D" uid="uid://dlig2syja085u" path="res://Art/Enemy-Sprites/Spider_Sprite.png" id="46_sn1fb"]
+[ext_resource type="Texture2D" uid="uid://kp63qnh2fqc3" path="res://Art/Enemy-Sprites/Thief.png" id="47_yvsr8"]
+[ext_resource type="Texture2D" uid="uid://cros1qvfe23ep" path="res://Art/Enemy-Sprites/Zombie_Sprite.png" id="48_vieuh"]
 [ext_resource type="Texture2D" uid="uid://cv73b5ip0yx50" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Frost-Axe-Player-Block.png" id="48_wu3dr"]
 [ext_resource type="Texture2D" uid="uid://b7aoav3ddd1fa" path="res://Art/Website-Icons/play-icon-lightmode.png" id="49_sm6fg"]
 [ext_resource type="Texture2D" uid="uid://dxbqlclosy482" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Lightning-Sword-Player-Sprite-Block.png" id="50_cyx1q"]
@@ -75,6 +89,7 @@
 [ext_resource type="Texture2D" uid="uid://d0ot8d71qx216" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Slime-Sword-Player-Sprite-Block.png" id="60_c2n8d"]
 [ext_resource type="Texture2D" uid="uid://cf8d4gq5bldq6" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Wooden-Axe-Player-Block.png" id="62_wy5fy"]
 [ext_resource type="Texture2D" uid="uid://bxqglfi8wfp4p" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Wooden-Sword-Player-Sprite-Block.png" id="64_gx4rg"]
+[ext_resource type="Script" uid="uid://cknfy8vodnj13" path="res://developement.gd" id="74_gx4rg"]
 [ext_resource type="Texture2D" uid="uid://dqinq3btk0eyk" path="res://Art/Website-Icons/FirstRendition.png" id="76_wy5fy"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0xm2m"]
@@ -374,6 +389,90 @@ tracks/19/keys = {
 "update": 0,
 "values": [Color(1, 1, 1, 0)]
 }
+tracks/20/type = "value"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel2:theme_override_colors/default_color")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+tracks/21/type = "value"
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel3:theme_override_colors/default_color")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+tracks/22/type = "value"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel4:theme_override_colors/default_color")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+tracks/23/type = "value"
+tracks/23/imported = false
+tracks/23/enabled = true
+tracks/23/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel5:theme_override_colors/default_color")
+tracks/23/interp = 1
+tracks/23/loop_wrap = true
+tracks/23/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+tracks/24/type = "value"
+tracks/24/imported = false
+tracks/24/enabled = true
+tracks/24/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel6:theme_override_colors/default_color")
+tracks/24/interp = 1
+tracks/24/loop_wrap = true
+tracks/24/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+tracks/25/type = "value"
+tracks/25/imported = false
+tracks/25/enabled = true
+tracks/25/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel7:theme_override_colors/default_color")
+tracks/25/interp = 1
+tracks/25/loop_wrap = true
+tracks/25/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+tracks/26/type = "value"
+tracks/26/imported = false
+tracks/26/enabled = true
+tracks/26/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel8:theme_override_colors/default_color")
+tracks/26/interp = 1
+tracks/26/loop_wrap = true
+tracks/26/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
 
 [sub_resource type="Animation" id="Animation_34ol3"]
 resource_name = "credits_fade_in"
@@ -650,6 +749,90 @@ tracks/17/keys = {
 "update": 0,
 "values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
 }
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel2:theme_override_colors/default_color")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel3:theme_override_colors/default_color")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/20/type = "value"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel4:theme_override_colors/default_color")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/21/type = "value"
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel5:theme_override_colors/default_color")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/22/type = "value"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel6:theme_override_colors/default_color")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/23/type = "value"
+tracks/23/imported = false
+tracks/23/enabled = true
+tracks/23/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel7:theme_override_colors/default_color")
+tracks/23/interp = 1
+tracks/23/loop_wrap = true
+tracks/23/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/24/type = "value"
+tracks/24/imported = false
+tracks/24/enabled = true
+tracks/24/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel8:theme_override_colors/default_color")
+tracks/24/interp = 1
+tracks/24/loop_wrap = true
+tracks/24/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
 
 [sub_resource type="Resource" id="Resource_5vw27"]
 metadata/__load_path__ = "res://Art/Website-Icons/lightbulb-button-darkmode-hover.png"
@@ -873,6 +1056,90 @@ tracks/17/keys = {
 "update": 0,
 "values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
 }
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel2:theme_override_colors/default_color")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel3:theme_override_colors/default_color")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/20/type = "value"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel4:theme_override_colors/default_color")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/21/type = "value"
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel5:theme_override_colors/default_color")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/22/type = "value"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel6:theme_override_colors/default_color")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/23/type = "value"
+tracks/23/imported = false
+tracks/23/enabled = true
+tracks/23/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel7:theme_override_colors/default_color")
+tracks/23/interp = 1
+tracks/23/loop_wrap = true
+tracks/23/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/24/type = "value"
+tracks/24/imported = false
+tracks/24/enabled = true
+tracks/24/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel8:theme_override_colors/default_color")
+tracks/24/interp = 1
+tracks/24/loop_wrap = true
+tracks/24/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_kek77"]
 _data = {
@@ -888,6 +1155,247 @@ _data = {
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_h0sjo"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_hrvbo"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8igct"]
+atlas = ExtResource("42_53bls")
+region = Rect2(0, 0, 55, 55)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xnvgk"]
+atlas = ExtResource("42_53bls")
+region = Rect2(55, 0, 55, 55)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b3d73"]
+atlas = ExtResource("42_53bls")
+region = Rect2(0, 55, 55, 55)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i7ics"]
+atlas = ExtResource("43_lwnsi")
+region = Rect2(0, 0, 128, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m58yd"]
+atlas = ExtResource("43_lwnsi")
+region = Rect2(128, 0, 128, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0l6uf"]
+atlas = ExtResource("43_lwnsi")
+region = Rect2(256, 0, 128, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8nef1"]
+atlas = ExtResource("43_lwnsi")
+region = Rect2(384, 0, 128, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6lyvx"]
+atlas = ExtResource("44_41lik")
+region = Rect2(0, 0, 50, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aprrs"]
+atlas = ExtResource("44_41lik")
+region = Rect2(50, 0, 50, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oy7di"]
+atlas = ExtResource("44_41lik")
+region = Rect2(0, 50, 50, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pt3va"]
+atlas = ExtResource("44_41lik")
+region = Rect2(50, 50, 50, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cxdol"]
+atlas = ExtResource("45_jbvwl")
+region = Rect2(0, 0, 64, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r5dif"]
+atlas = ExtResource("45_jbvwl")
+region = Rect2(64, 0, 64, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pgpps"]
+atlas = ExtResource("45_jbvwl")
+region = Rect2(128, 0, 64, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mlki8"]
+atlas = ExtResource("45_jbvwl")
+region = Rect2(0, 128, 64, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qadea"]
+atlas = ExtResource("45_jbvwl")
+region = Rect2(64, 128, 64, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fn3tu"]
+atlas = ExtResource("46_sn1fb")
+region = Rect2(0, 0, 128, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vevns"]
+atlas = ExtResource("46_sn1fb")
+region = Rect2(128, 0, 128, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5w7i7"]
+atlas = ExtResource("46_sn1fb")
+region = Rect2(256, 0, 128, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wy6px"]
+atlas = ExtResource("46_sn1fb")
+region = Rect2(384, 0, 128, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_py2sd"]
+atlas = ExtResource("47_yvsr8")
+region = Rect2(0, 0, 64, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ff6pb"]
+atlas = ExtResource("47_yvsr8")
+region = Rect2(64, 0, 64, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mbcnp"]
+atlas = ExtResource("47_yvsr8")
+region = Rect2(128, 0, 64, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bwc2y"]
+atlas = ExtResource("47_yvsr8")
+region = Rect2(192, 0, 64, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_an72e"]
+atlas = ExtResource("48_vieuh")
+region = Rect2(0, 0, 64, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6kgd8"]
+atlas = ExtResource("48_vieuh")
+region = Rect2(64, 0, 64, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lsr6y"]
+atlas = ExtResource("48_vieuh")
+region = Rect2(128, 0, 64, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ovfx3"]
+atlas = ExtResource("48_vieuh")
+region = Rect2(0, 128, 64, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xlq0g"]
+atlas = ExtResource("48_vieuh")
+region = Rect2(64, 128, 64, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_awssv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8igct")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xnvgk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b3d73")
+}],
+"loop": true,
+"name": &"demon",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i7ics")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m58yd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0l6uf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8nef1")
+}],
+"loop": true,
+"name": &"dungeon_critter",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6lyvx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aprrs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oy7di")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pt3va")
+}],
+"loop": true,
+"name": &"gremlin",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cxdol")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r5dif")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pgpps")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mlki8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qadea")
+}],
+"loop": true,
+"name": &"skeleton",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fn3tu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vevns")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5w7i7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wy6px")
+}],
+"loop": true,
+"name": &"spider",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_py2sd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ff6pb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mbcnp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bwc2y")
+}],
+"loop": true,
+"name": &"thief",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_an72e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6kgd8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lsr6y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ovfx3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xlq0g")
+}],
+"loop": true,
+"name": &"zombie",
+"speed": 5.0
+}]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qsp4k"]
 atlas = ExtResource("22_0odxb")
@@ -4486,6 +4994,13 @@ offset_right = 7585.0
 offset_bottom = 167.00003
 text = "Spells"
 
+[node name="EnemiesButton" type="Button" parent="Gallery"]
+offset_left = 7600.0
+offset_top = 136.0
+offset_right = 7674.0
+offset_bottom = 167.0
+text = "Enemies"
+
 [node name="RichTextLabel" type="RichTextLabel" parent="Gallery"]
 offset_left = 7832.0
 offset_top = 88.00003
@@ -4500,6 +5015,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="SwordsContainer" type="ScrollContainer" parent="Gallery"]
+visible = false
 offset_left = 7440.0
 offset_top = 176.00003
 offset_right = 8848.0
@@ -4655,9 +5171,9 @@ expand_icon = true
 
 [node name="SpellsContainer" type="ScrollContainer" parent="Gallery"]
 visible = false
-offset_left = 5376.0
+offset_left = 7440.0
 offset_top = 176.0
-offset_right = 6784.0
+offset_right = 8848.0
 offset_bottom = 560.0
 
 [node name="GridContainer" type="GridContainer" parent="Gallery/SpellsContainer"]
@@ -4788,6 +5304,87 @@ icon = ExtResource("34_come4")
 icon_alignment = 1
 expand_icon = true
 
+[node name="EnemiesContainer" type="ScrollContainer" parent="Gallery"]
+offset_left = 7440.0
+offset_top = 176.0
+offset_right = 8848.0
+offset_bottom = 560.0
+
+[node name="GridContainer" type="GridContainer" parent="Gallery/EnemiesContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+columns = 4
+
+[node name="DungeonCritterButton" type="Button" parent="Gallery/EnemiesContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "Fireball"
+icon = ExtResource("35_4obbf")
+icon_alignment = 1
+expand_icon = true
+
+[node name="SpiderButton" type="Button" parent="Gallery/EnemiesContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "Fireball"
+icon = ExtResource("36_ovcoh")
+icon_alignment = 1
+expand_icon = true
+
+[node name="ZombieButton" type="Button" parent="Gallery/EnemiesContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "Fireball"
+icon = ExtResource("37_ppx11")
+icon_alignment = 1
+expand_icon = true
+
+[node name="SkeletonButton" type="Button" parent="Gallery/EnemiesContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "Fireball"
+icon = ExtResource("38_1yv1y")
+icon_alignment = 1
+expand_icon = true
+
+[node name="ThiefButton" type="Button" parent="Gallery/EnemiesContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "Fireball"
+icon = ExtResource("39_5yh34")
+icon_alignment = 1
+expand_icon = true
+
+[node name="GremlinButton" type="Button" parent="Gallery/EnemiesContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "Fireball"
+icon = ExtResource("40_n5t1e")
+icon_alignment = 1
+expand_icon = true
+
+[node name="DemonButton" type="Button" parent="Gallery/EnemiesContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+icon = ExtResource("41_h6isl")
+icon_alignment = 1
+expand_icon = true
+
 [node name="PlayButton" type="Button" parent="Gallery"]
 modulate = Color(1, 1, 1, 0)
 offset_left = 8112.0
@@ -4822,6 +5419,36 @@ theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 30
 text = "Current Sword: None"
 
+[node name="EnemyDisplay" type="PanelContainer" parent="Gallery"]
+visible = false
+offset_left = 7872.0
+offset_top = 200.0
+offset_right = 8384.0
+offset_bottom = 768.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Gallery/EnemyDisplay"]
+layout_mode = 2
+theme_override_colors/default_color = Color(1, 1, 0, 1)
+theme_override_fonts/normal_font = ExtResource("1_ig7tw")
+theme_override_font_sizes/normal_font_size = 60
+bbcode_enabled = true
+text = "[outline_size=5]ENEMY NAME[/outline_size]"
+horizontal_alignment = 1
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Gallery/EnemyDisplay"]
+texture_filter = 1
+position = Vector2(272, 248)
+scale = Vector2(4, 4)
+sprite_frames = SubResource("SpriteFrames_awssv")
+animation = &"demon"
+
+[node name="Close" type="Button" parent="Gallery/EnemyDisplay"]
+custom_minimum_size = Vector2(60, 40)
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+text = "Exit"
+
 [node name="PlayerAnimations" type="Node2D" parent="Gallery"]
 
 [node name="PlayerArms" type="AnimatedSprite2D" parent="Gallery/PlayerAnimations"]
@@ -4846,12 +5473,22 @@ sprite_frames = SubResource("SpriteFrames_cyx1q")
 animation = &"poison_sword_block"
 
 [node name="Developement" type="Node2D" parent="."]
+script = ExtResource("74_gx4rg")
 
-[node name="RichTextLabel" type="RichTextLabel" parent="Developement"]
-offset_left = 5510.8877
-offset_top = 80.0
-offset_right = 6134.8877
-offset_bottom = 192.0
+[node name="ScrollContainer" type="ScrollContainer" parent="Developement"]
+offset_left = 5056.0
+offset_top = 112.0
+offset_right = 6592.0
+offset_bottom = 888.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Developement/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Developement/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
 theme_override_colors/default_color = Color(1, 1, 0, 1)
 theme_override_fonts/normal_font = ExtResource("1_ig7tw")
 theme_override_font_sizes/normal_font_size = 60
@@ -4860,77 +5497,87 @@ text = "[outline_size=5]DEVELOPEMENT[/outline_size]"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="FirstIdea" type="Sprite2D" parent="Developement"]
-position = Vector2(5822.8877, 553)
-scale = Vector2(0.113514, 0.11351397)
-texture = ExtResource("13_34ol3")
-
-[node name="FinalGameplayUI" type="Sprite2D" parent="Developement"]
-position = Vector2(5822.8887, 1169)
-scale = Vector2(0.4982639, 0.49826387)
-texture = ExtResource("14_c2n8d")
-
-[node name="FirstAttempt" type="Sprite2D" parent="Developement"]
-position = Vector2(5822.8877, 1593.0001)
-scale = Vector2(0.54152966, 0.5415296)
-texture = ExtResource("76_wy5fy")
-
-[node name="RichTextLabel2" type="RichTextLabel" parent="Developement"]
-offset_left = 5598.8877
-offset_top = 225.0
-offset_right = 6046.8877
-offset_bottom = 294.0
+[node name="RichTextLabel2" type="RichTextLabel" parent="Developement/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
 theme_override_colors/default_color = Color(0, 0, 0, 1)
-text = "This was the first Idea of how the game was going to look."
+text = "In the beginning, all we had was an idea"
+horizontal_alignment = 1
 
-[node name="RichTextLabel3" type="RichTextLabel" parent="Developement"]
-offset_left = 5598.8877
-offset_top = 953.0
-offset_right = 6054.8877
-offset_bottom = 1022.0
+[node name="CenterContainer" type="CenterContainer" parent="Developement/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Developement/ScrollContainer/VBoxContainer/CenterContainer"]
+custom_minimum_size = Vector2(600, 1000)
+layout_direction = 4
+layout_mode = 2
+texture = ExtResource("13_34ol3")
+expand_mode = 1
+stretch_mode = 4
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="Developement/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+size_flags_horizontal = 3
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 text = "This was how the game looked at the end of the semester."
+horizontal_alignment = 1
+vertical_alignment = 2
 
-[node name="RichTextLabel4" type="RichTextLabel" parent="Developement"]
-offset_left = 5720.0
-offset_top = 1376.0
-offset_right = 5952.0
-offset_bottom = 1408.0
+[node name="CenterContainer2" type="CenterContainer" parent="Developement/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Developement/ScrollContainer/VBoxContainer/CenterContainer2"]
+custom_minimum_size = Vector2(800, 600)
+layout_mode = 2
+texture = ExtResource("14_c2n8d")
+expand_mode = 1
+stretch_mode = 4
+
+[node name="RichTextLabel4" type="RichTextLabel" parent="Developement/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 text = "At the start of the semester..."
+horizontal_alignment = 1
+vertical_alignment = 2
 
-[node name="RichTextLabel5" type="RichTextLabel" parent="Developement"]
-offset_left = 5560.0
-offset_top = 1824.0
-offset_right = 6104.0
-offset_bottom = 2056.0
+[node name="CenterContainer3" type="CenterContainer" parent="Developement/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Developement/ScrollContainer/VBoxContainer/CenterContainer3"]
+custom_minimum_size = Vector2(800, 600)
+layout_direction = 4
+layout_mode = 2
+texture = ExtResource("76_wy5fy")
+expand_mode = 1
+stretch_mode = 4
+
+[node name="RichTextLabel5" type="RichTextLabel" parent="Developement/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/normal_font_size = 30
 text = "     For the first Sprint we focused on too many things. One team member was working on the Shop and another was focusing on the Art. "
+vertical_alignment = 1
 
-[node name="RichTextLabel6" type="RichTextLabel" parent="Developement"]
-offset_left = 5472.0
-offset_top = 2048.0
-offset_right = 6176.0
-offset_bottom = 2224.0
+[node name="RichTextLabel6" type="RichTextLabel" parent="Developement/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/normal_font_size = 30
 text = "     For the second Sprint we were working on fleshing out the game. Making the game more of a challenege but at the same time having the player feel like their getting stronger. "
 
-[node name="RichTextLabel7" type="RichTextLabel" parent="Developement"]
-offset_left = 5472.0
-offset_top = 2296.0
-offset_right = 6176.0
-offset_bottom = 2472.0
+[node name="RichTextLabel7" type="RichTextLabel" parent="Developement/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/normal_font_size = 30
 text = "     For the third Sprint we wanted to add more restrections in the game. We wanted the player to feel the need to get stronger quick. "
 
-[node name="RichTextLabel8" type="RichTextLabel" parent="Developement"]
-offset_left = 5448.0
-offset_top = 2496.0
-offset_right = 6200.0
-offset_bottom = 2712.0
+[node name="RichTextLabel8" type="RichTextLabel" parent="Developement/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/normal_font_size = 30
 text = "     For the fourth sprint we focused on making the game harder as the player continued. We wanted the player to have a reason to continue playing. As well as the ability to get stronger quicker compared to the early game."
@@ -4944,6 +5591,7 @@ text = "     For the fourth sprint we focused on making the game harder as the p
 [connection signal="pressed" from="Credits/Next" to="." method="_on_next_pressed"]
 [connection signal="pressed" from="Gallery/SwordsButton" to="Gallery" method="_on_swords_button_pressed"]
 [connection signal="pressed" from="Gallery/SpellsButton" to="Gallery" method="_on_spells_button_pressed"]
+[connection signal="pressed" from="Gallery/EnemiesButton" to="Gallery" method="_on_enemies_button_pressed"]
 [connection signal="pressed" from="Gallery/SwordsContainer/GridContainer/WoodenSwordButton" to="Gallery" method="_on_wooden_sword_button_pressed"]
 [connection signal="pressed" from="Gallery/SwordsContainer/GridContainer/WoodenAxeButton" to="Gallery" method="_on_wooden_axe_button_pressed"]
 [connection signal="pressed" from="Gallery/SwordsContainer/GridContainer/LeafBladeButton" to="Gallery" method="_on_leaf_blade_button_pressed"]
@@ -4970,5 +5618,13 @@ text = "     For the fourth sprint we focused on making the game harder as the p
 [connection signal="pressed" from="Gallery/SpellsContainer/GridContainer/SpecialBeamCannonButton" to="Gallery" method="_on_special_beam_cannon_button_pressed"]
 [connection signal="pressed" from="Gallery/SpellsContainer/GridContainer/IceWallButton" to="Gallery" method="_on_ice_wall_button_pressed"]
 [connection signal="pressed" from="Gallery/SpellsContainer/GridContainer/Gun" to="Gallery" method="_on_gun_pressed"]
+[connection signal="pressed" from="Gallery/EnemiesContainer/GridContainer/DungeonCritterButton" to="Gallery" method="_on_dungeon_critter_button_pressed"]
+[connection signal="pressed" from="Gallery/EnemiesContainer/GridContainer/SpiderButton" to="Gallery" method="_on_spider_button_pressed"]
+[connection signal="pressed" from="Gallery/EnemiesContainer/GridContainer/ZombieButton" to="Gallery" method="_on_zombie_button_pressed"]
+[connection signal="pressed" from="Gallery/EnemiesContainer/GridContainer/SkeletonButton" to="Gallery" method="_on_skeleton_button_pressed"]
+[connection signal="pressed" from="Gallery/EnemiesContainer/GridContainer/ThiefButton" to="Gallery" method="_on_thief_button_pressed"]
+[connection signal="pressed" from="Gallery/EnemiesContainer/GridContainer/GremlinButton" to="Gallery" method="_on_gremlin_button_pressed"]
+[connection signal="pressed" from="Gallery/EnemiesContainer/GridContainer/DemonButton" to="Gallery" method="_on_demon_button_pressed"]
 [connection signal="pressed" from="Gallery/PlayButton" to="Gallery" method="_on_play_button_pressed"]
 [connection signal="pressed" from="Gallery/TypeButton" to="Gallery" method="_on_type_button_pressed"]
+[connection signal="pressed" from="Gallery/EnemyDisplay/Close" to="Gallery" method="_on_close_pressed"]

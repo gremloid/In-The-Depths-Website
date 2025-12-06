@@ -26,19 +26,35 @@ func _ready():
 func _on_spells_button_pressed() -> void:
 	animation_class = 'Spell'
 	$SwordsContainer.visible = false
+	$EnemiesContainer.visible = false
 	$SpellsContainer.visible = true
 	$SpellsButton.disabled = true
 	$SwordsButton.disabled = false
+	$EnemiesButton.disabled = false
+	$CurrentLabel.visible = true
 	$CurrentLabel.text = 'Current Spell: ' + str(current_spell)
 
 func _on_swords_button_pressed() -> void:
 	animation_class = 'Sword'
+	$EnemiesContainer.visible = false
 	$SpellsContainer.visible = false
 	$SwordsContainer.visible = true
 	$SwordsButton.disabled = true
 	$SpellsButton.disabled = false
+	$EnemiesButton.disabled = false
+	$CurrentLabel.visible = true
 	$CurrentLabel.text = 'Current Sword: ' + str(current_sword)
 
+func _on_enemies_button_pressed() -> void:
+	animation_class = 'None'
+	$SwordsContainer.visible = false
+	$SpellsContainer.visible = false
+	$EnemiesContainer.visible = true
+	$SwordsButton.disabled = false
+	$SpellsButton.disabled = false
+	$EnemiesButton.disabled = true
+	$CurrentLabel.visible = false
+	
 func _on_play_button_pressed() -> void:
 	if (animation_class == 'Sword' and current_sword == 'None') or (animation_class == 'Spell' and current_spell == 'None'):
 		$PlayerAnimations/PlayerArms.play('punch')
@@ -74,6 +90,26 @@ func _on_type_button_pressed() -> void:
 	else:
 		animation_type = 'Attack'
 		$TypeButton.text = 'Attack'
+
+func display_enemy(enemy_name, animation_name):
+	if enemy_name == 'Thief':
+		$EnemyDisplay/AnimatedSprite2D.scale.x = 2.5
+		$EnemyDisplay/AnimatedSprite2D.scale.y = 2.5
+	else:
+		$EnemyDisplay/AnimatedSprite2D.scale.x = 4
+		$EnemyDisplay/AnimatedSprite2D.scale.y = 4
+	var timer = Timer.new()
+	timer.wait_time = 1
+	add_child(timer)
+	$EnemyDisplay/AnimatedSprite2D.animation = animation_name
+	$EnemyDisplay/RichTextLabel.text = '[outline_size=5]' + enemy_name + '[/outline_size]'
+	$EnemyDisplay.visible = true
+	while $EnemyDisplay.visible:
+		$EnemyDisplay/AnimatedSprite2D.play()
+		await $EnemyDisplay/AnimatedSprite2D.animation_looped
+		$EnemyDisplay/AnimatedSprite2D.stop()
+		timer.start()
+		await timer.timeout
 
 func _on_wooden_sword_button_pressed() -> void:
 	current_sword = 'Wooden Sword'
@@ -247,3 +283,27 @@ func _on_gun_pressed() -> void:
 	current_spell = 'Gun'
 	current_spell_animation = 'gun'
 	set_text('Gun')
+
+func _on_dungeon_critter_button_pressed() -> void:
+	display_enemy('Dungeon Critter', 'dungeon_critter')
+
+func _on_spider_button_pressed() -> void:
+	display_enemy('Spider', 'spider')
+
+func _on_zombie_button_pressed() -> void:
+	display_enemy('Zombie', 'zombie')
+
+func _on_skeleton_button_pressed() -> void:
+	display_enemy('Skeleton', 'skeleton')
+	
+func _on_thief_button_pressed() -> void:
+	display_enemy('Thief', 'thief')
+
+func _on_gremlin_button_pressed() -> void:
+	display_enemy('Gremlin', 'gremlin')
+
+func _on_demon_button_pressed() -> void:
+	display_enemy('Demon', 'demon')
+
+func _on_close_pressed() -> void:
+	$EnemyDisplay.visible = false
