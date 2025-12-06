@@ -1,4 +1,4 @@
-[gd_scene load_steps=594 format=3 uid="uid://cqow47bch5ocs"]
+[gd_scene load_steps=593 format=3 uid="uid://cqow47bch5ocs"]
 
 [ext_resource type="Script" uid="uid://bs2qeucwtife5" path="res://main.gd" id="1_0xm2m"]
 [ext_resource type="FontFile" uid="uid://cuewmctm1qfdf" path="res://Fonts/Papyrus.ttc" id="1_ig7tw"]
@@ -89,7 +89,6 @@
 [ext_resource type="Texture2D" uid="uid://d0ot8d71qx216" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Slime-Sword-Player-Sprite-Block.png" id="60_c2n8d"]
 [ext_resource type="Texture2D" uid="uid://cf8d4gq5bldq6" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Wooden-Axe-Player-Block.png" id="62_wy5fy"]
 [ext_resource type="Texture2D" uid="uid://bxqglfi8wfp4p" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Wooden-Sword-Player-Sprite-Block.png" id="64_gx4rg"]
-[ext_resource type="Script" uid="uid://cknfy8vodnj13" path="res://developement.gd" id="74_gx4rg"]
 [ext_resource type="Texture2D" uid="uid://dqinq3btk0eyk" path="res://Art/Website-Icons/FirstRendition.png" id="76_wy5fy"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0xm2m"]
@@ -392,7 +391,7 @@ tracks/19/keys = {
 tracks/20/type = "value"
 tracks/20/imported = false
 tracks/20/enabled = true
-tracks/20/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel2:theme_override_colors/default_color")
+tracks/20/path = NodePath("Development/ScrollContainer/VBoxContainer/RichTextLabel2:theme_override_colors/default_color")
 tracks/20/interp = 1
 tracks/20/loop_wrap = true
 tracks/20/keys = {
@@ -404,7 +403,7 @@ tracks/20/keys = {
 tracks/21/type = "value"
 tracks/21/imported = false
 tracks/21/enabled = true
-tracks/21/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel3:theme_override_colors/default_color")
+tracks/21/path = NodePath("Development/ScrollContainer/VBoxContainer/RichTextLabel3:theme_override_colors/default_color")
 tracks/21/interp = 1
 tracks/21/loop_wrap = true
 tracks/21/keys = {
@@ -416,7 +415,7 @@ tracks/21/keys = {
 tracks/22/type = "value"
 tracks/22/imported = false
 tracks/22/enabled = true
-tracks/22/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel4:theme_override_colors/default_color")
+tracks/22/path = NodePath("Development/ScrollContainer/VBoxContainer/RichTextLabel4:theme_override_colors/default_color")
 tracks/22/interp = 1
 tracks/22/loop_wrap = true
 tracks/22/keys = {
@@ -428,7 +427,7 @@ tracks/22/keys = {
 tracks/23/type = "value"
 tracks/23/imported = false
 tracks/23/enabled = true
-tracks/23/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel5:theme_override_colors/default_color")
+tracks/23/path = NodePath("Development/ScrollContainer/VBoxContainer/RichTextLabel5:theme_override_colors/default_color")
 tracks/23/interp = 1
 tracks/23/loop_wrap = true
 tracks/23/keys = {
@@ -440,7 +439,7 @@ tracks/23/keys = {
 tracks/24/type = "value"
 tracks/24/imported = false
 tracks/24/enabled = true
-tracks/24/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel6:theme_override_colors/default_color")
+tracks/24/path = NodePath("Development/ScrollContainer/VBoxContainer/RichTextLabel6:theme_override_colors/default_color")
 tracks/24/interp = 1
 tracks/24/loop_wrap = true
 tracks/24/keys = {
@@ -452,7 +451,7 @@ tracks/24/keys = {
 tracks/25/type = "value"
 tracks/25/imported = false
 tracks/25/enabled = true
-tracks/25/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel7:theme_override_colors/default_color")
+tracks/25/path = NodePath("Development/ScrollContainer/VBoxContainer/RichTextLabel7:theme_override_colors/default_color")
 tracks/25/interp = 1
 tracks/25/loop_wrap = true
 tracks/25/keys = {
@@ -464,10 +463,70 @@ tracks/25/keys = {
 tracks/26/type = "value"
 tracks/26/imported = false
 tracks/26/enabled = true
-tracks/26/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel8:theme_override_colors/default_color")
+tracks/26/path = NodePath("Development/ScrollContainer/VBoxContainer/RichTextLabel8:theme_override_colors/default_color")
 tracks/26/interp = 1
 tracks/26/loop_wrap = true
 tracks/26/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+tracks/27/type = "value"
+tracks/27/imported = false
+tracks/27/enabled = true
+tracks/27/path = NodePath("How2Play/ScrollContainer/VBoxContainer/RichTextLabel2:theme_override_colors/default_color")
+tracks/27/interp = 1
+tracks/27/loop_wrap = true
+tracks/27/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+tracks/28/type = "value"
+tracks/28/imported = false
+tracks/28/enabled = true
+tracks/28/path = NodePath("How2Play/ScrollContainer/VBoxContainer/RichTextLabel4:theme_override_colors/default_color")
+tracks/28/interp = 1
+tracks/28/loop_wrap = true
+tracks/28/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+tracks/29/type = "value"
+tracks/29/imported = false
+tracks/29/enabled = true
+tracks/29/path = NodePath("How2Play/ScrollContainer/VBoxContainer/RichTextLabel6:theme_override_colors/default_color")
+tracks/29/interp = 1
+tracks/29/loop_wrap = true
+tracks/29/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+tracks/30/type = "value"
+tracks/30/imported = false
+tracks/30/enabled = true
+tracks/30/path = NodePath("How2Play/ScrollContainer/VBoxContainer/RichTextLabel8:theme_override_colors/default_color")
+tracks/30/interp = 1
+tracks/30/loop_wrap = true
+tracks/30/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+tracks/31/type = "value"
+tracks/31/imported = false
+tracks/31/enabled = true
+tracks/31/path = NodePath("How2Play/ScrollContainer/VBoxContainer/RichTextLabel10:theme_override_colors/default_color")
+tracks/31/interp = 1
+tracks/31/loop_wrap = true
+tracks/31/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
@@ -752,7 +811,7 @@ tracks/17/keys = {
 tracks/18/type = "value"
 tracks/18/imported = false
 tracks/18/enabled = true
-tracks/18/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel2:theme_override_colors/default_color")
+tracks/18/path = NodePath("Development/ScrollContainer/VBoxContainer/RichTextLabel2:theme_override_colors/default_color")
 tracks/18/interp = 1
 tracks/18/loop_wrap = true
 tracks/18/keys = {
@@ -764,7 +823,7 @@ tracks/18/keys = {
 tracks/19/type = "value"
 tracks/19/imported = false
 tracks/19/enabled = true
-tracks/19/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel3:theme_override_colors/default_color")
+tracks/19/path = NodePath("Development/ScrollContainer/VBoxContainer/RichTextLabel3:theme_override_colors/default_color")
 tracks/19/interp = 1
 tracks/19/loop_wrap = true
 tracks/19/keys = {
@@ -776,7 +835,7 @@ tracks/19/keys = {
 tracks/20/type = "value"
 tracks/20/imported = false
 tracks/20/enabled = true
-tracks/20/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel4:theme_override_colors/default_color")
+tracks/20/path = NodePath("Development/ScrollContainer/VBoxContainer/RichTextLabel4:theme_override_colors/default_color")
 tracks/20/interp = 1
 tracks/20/loop_wrap = true
 tracks/20/keys = {
@@ -788,7 +847,7 @@ tracks/20/keys = {
 tracks/21/type = "value"
 tracks/21/imported = false
 tracks/21/enabled = true
-tracks/21/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel5:theme_override_colors/default_color")
+tracks/21/path = NodePath("Development/ScrollContainer/VBoxContainer/RichTextLabel5:theme_override_colors/default_color")
 tracks/21/interp = 1
 tracks/21/loop_wrap = true
 tracks/21/keys = {
@@ -800,7 +859,7 @@ tracks/21/keys = {
 tracks/22/type = "value"
 tracks/22/imported = false
 tracks/22/enabled = true
-tracks/22/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel6:theme_override_colors/default_color")
+tracks/22/path = NodePath("Development/ScrollContainer/VBoxContainer/RichTextLabel6:theme_override_colors/default_color")
 tracks/22/interp = 1
 tracks/22/loop_wrap = true
 tracks/22/keys = {
@@ -812,7 +871,7 @@ tracks/22/keys = {
 tracks/23/type = "value"
 tracks/23/imported = false
 tracks/23/enabled = true
-tracks/23/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel7:theme_override_colors/default_color")
+tracks/23/path = NodePath("Development/ScrollContainer/VBoxContainer/RichTextLabel7:theme_override_colors/default_color")
 tracks/23/interp = 1
 tracks/23/loop_wrap = true
 tracks/23/keys = {
@@ -824,10 +883,70 @@ tracks/23/keys = {
 tracks/24/type = "value"
 tracks/24/imported = false
 tracks/24/enabled = true
-tracks/24/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel8:theme_override_colors/default_color")
+tracks/24/path = NodePath("Development/ScrollContainer/VBoxContainer/RichTextLabel8:theme_override_colors/default_color")
 tracks/24/interp = 1
 tracks/24/loop_wrap = true
 tracks/24/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/25/type = "value"
+tracks/25/imported = false
+tracks/25/enabled = true
+tracks/25/path = NodePath("How2Play/ScrollContainer/VBoxContainer/RichTextLabel2:theme_override_colors/default_color")
+tracks/25/interp = 1
+tracks/25/loop_wrap = true
+tracks/25/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/26/type = "value"
+tracks/26/imported = false
+tracks/26/enabled = true
+tracks/26/path = NodePath("How2Play/ScrollContainer/VBoxContainer/RichTextLabel4:theme_override_colors/default_color")
+tracks/26/interp = 1
+tracks/26/loop_wrap = true
+tracks/26/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/27/type = "value"
+tracks/27/imported = false
+tracks/27/enabled = true
+tracks/27/path = NodePath("How2Play/ScrollContainer/VBoxContainer/RichTextLabel6:theme_override_colors/default_color")
+tracks/27/interp = 1
+tracks/27/loop_wrap = true
+tracks/27/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/28/type = "value"
+tracks/28/imported = false
+tracks/28/enabled = true
+tracks/28/path = NodePath("How2Play/ScrollContainer/VBoxContainer/RichTextLabel8:theme_override_colors/default_color")
+tracks/28/interp = 1
+tracks/28/loop_wrap = true
+tracks/28/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/29/type = "value"
+tracks/29/imported = false
+tracks/29/enabled = true
+tracks/29/path = NodePath("How2Play/ScrollContainer/VBoxContainer/RichTextLabel10:theme_override_colors/default_color")
+tracks/29/interp = 1
+tracks/29/loop_wrap = true
+tracks/29/keys = {
 "times": PackedFloat32Array(0, 0.5),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
@@ -1059,7 +1178,7 @@ tracks/17/keys = {
 tracks/18/type = "value"
 tracks/18/imported = false
 tracks/18/enabled = true
-tracks/18/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel2:theme_override_colors/default_color")
+tracks/18/path = NodePath("Development/ScrollContainer/VBoxContainer/RichTextLabel2:theme_override_colors/default_color")
 tracks/18/interp = 1
 tracks/18/loop_wrap = true
 tracks/18/keys = {
@@ -1071,7 +1190,7 @@ tracks/18/keys = {
 tracks/19/type = "value"
 tracks/19/imported = false
 tracks/19/enabled = true
-tracks/19/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel3:theme_override_colors/default_color")
+tracks/19/path = NodePath("Development/ScrollContainer/VBoxContainer/RichTextLabel3:theme_override_colors/default_color")
 tracks/19/interp = 1
 tracks/19/loop_wrap = true
 tracks/19/keys = {
@@ -1083,7 +1202,7 @@ tracks/19/keys = {
 tracks/20/type = "value"
 tracks/20/imported = false
 tracks/20/enabled = true
-tracks/20/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel4:theme_override_colors/default_color")
+tracks/20/path = NodePath("Development/ScrollContainer/VBoxContainer/RichTextLabel4:theme_override_colors/default_color")
 tracks/20/interp = 1
 tracks/20/loop_wrap = true
 tracks/20/keys = {
@@ -1095,7 +1214,7 @@ tracks/20/keys = {
 tracks/21/type = "value"
 tracks/21/imported = false
 tracks/21/enabled = true
-tracks/21/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel5:theme_override_colors/default_color")
+tracks/21/path = NodePath("Development/ScrollContainer/VBoxContainer/RichTextLabel5:theme_override_colors/default_color")
 tracks/21/interp = 1
 tracks/21/loop_wrap = true
 tracks/21/keys = {
@@ -1107,7 +1226,7 @@ tracks/21/keys = {
 tracks/22/type = "value"
 tracks/22/imported = false
 tracks/22/enabled = true
-tracks/22/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel6:theme_override_colors/default_color")
+tracks/22/path = NodePath("Development/ScrollContainer/VBoxContainer/RichTextLabel6:theme_override_colors/default_color")
 tracks/22/interp = 1
 tracks/22/loop_wrap = true
 tracks/22/keys = {
@@ -1119,7 +1238,7 @@ tracks/22/keys = {
 tracks/23/type = "value"
 tracks/23/imported = false
 tracks/23/enabled = true
-tracks/23/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel7:theme_override_colors/default_color")
+tracks/23/path = NodePath("Development/ScrollContainer/VBoxContainer/RichTextLabel7:theme_override_colors/default_color")
 tracks/23/interp = 1
 tracks/23/loop_wrap = true
 tracks/23/keys = {
@@ -1131,10 +1250,70 @@ tracks/23/keys = {
 tracks/24/type = "value"
 tracks/24/imported = false
 tracks/24/enabled = true
-tracks/24/path = NodePath("Developement/ScrollContainer/VBoxContainer/RichTextLabel8:theme_override_colors/default_color")
+tracks/24/path = NodePath("Development/ScrollContainer/VBoxContainer/RichTextLabel8:theme_override_colors/default_color")
 tracks/24/interp = 1
 tracks/24/loop_wrap = true
 tracks/24/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/25/type = "value"
+tracks/25/imported = false
+tracks/25/enabled = true
+tracks/25/path = NodePath("How2Play/ScrollContainer/VBoxContainer/RichTextLabel2:theme_override_colors/default_color")
+tracks/25/interp = 1
+tracks/25/loop_wrap = true
+tracks/25/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/26/type = "value"
+tracks/26/imported = false
+tracks/26/enabled = true
+tracks/26/path = NodePath("How2Play/ScrollContainer/VBoxContainer/RichTextLabel4:theme_override_colors/default_color")
+tracks/26/interp = 1
+tracks/26/loop_wrap = true
+tracks/26/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/27/type = "value"
+tracks/27/imported = false
+tracks/27/enabled = true
+tracks/27/path = NodePath("How2Play/ScrollContainer/VBoxContainer/RichTextLabel6:theme_override_colors/default_color")
+tracks/27/interp = 1
+tracks/27/loop_wrap = true
+tracks/27/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/28/type = "value"
+tracks/28/imported = false
+tracks/28/enabled = true
+tracks/28/path = NodePath("How2Play/ScrollContainer/VBoxContainer/RichTextLabel8:theme_override_colors/default_color")
+tracks/28/interp = 1
+tracks/28/loop_wrap = true
+tracks/28/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/29/type = "value"
+tracks/29/imported = false
+tracks/29/enabled = true
+tracks/29/path = NodePath("How2Play/ScrollContainer/VBoxContainer/RichTextLabel10:theme_override_colors/default_color")
+tracks/29/interp = 1
+tracks/29/loop_wrap = true
+tracks/29/keys = {
 "times": PackedFloat32Array(0, 0.5),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
@@ -4838,14 +5017,23 @@ theme_override_styles/hover = ExtResource("3_lquwl")
 theme_override_styles/focus = SubResource("StyleBoxFlat_4c57u")
 text = "Credits"
 
-[node name="Developement" type="Button" parent="UI/HBoxContainer"]
+[node name="Development" type="Button" parent="UI/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_styles/normal = ExtResource("2_1bvp3")
 theme_override_styles/pressed = ExtResource("2_1bvp3")
 theme_override_styles/hover = ExtResource("3_lquwl")
 theme_override_styles/focus = SubResource("StyleBoxFlat_4c57u")
-text = "Developement"
+text = "Development"
+
+[node name="How2Play" type="Button" parent="UI/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/normal = ExtResource("2_1bvp3")
+theme_override_styles/pressed = ExtResource("2_1bvp3")
+theme_override_styles/hover = ExtResource("3_lquwl")
+theme_override_styles/focus = SubResource("StyleBoxFlat_4c57u")
+text = "How To Play"
 
 [node name="Gallery" type="Button" parent="UI/HBoxContainer"]
 layout_mode = 2
@@ -4874,23 +5062,26 @@ texture_normal = ExtResource("4_lquwl")
 texture_hover = ExtResource("5_7mycd")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(800, 448)
+position = Vector2(800, 450)
 position_smoothing_enabled = true
 position_smoothing_speed = 2.0
 
 [node name="CenterNodes" type="Node2D" parent="."]
-position = Vector2(800, 448)
+position = Vector2(800, 450)
 
 [node name="MainPageCenter" type="Node2D" parent="CenterNodes"]
 
 [node name="CreditsCenter" type="Node2D" parent="CenterNodes"]
-position = Vector2(2540, 0)
+position = Vector2(2500, 0)
 
-[node name="DevelopementCenter" type="Node2D" parent="CenterNodes"]
-position = Vector2(5022.8877, -7)
+[node name="DevelopmentCenter" type="Node2D" parent="CenterNodes"]
+position = Vector2(5000, 0)
+
+[node name="How2PlayCenter" type="Node2D" parent="CenterNodes"]
+position = Vector2(7500, 0)
 
 [node name="GalleryCenter" type="Node2D" parent="CenterNodes"]
-position = Vector2(7344, 3.0517578e-05)
+position = Vector2(10000, 0)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
@@ -4900,10 +5091,10 @@ libraries = {
 [node name="MainPage" type="Node2D" parent="."]
 
 [node name="Logo" type="RichTextLabel" parent="MainPage"]
-offset_left = 536.0
-offset_top = 112.0
-offset_right = 1064.0
-offset_bottom = 240.0
+offset_left = 550.0
+offset_top = 100.0
+offset_right = 1050.0
+offset_bottom = 225.0
 theme_override_colors/default_color = Color(1, 1, 0, 1)
 theme_override_fonts/normal_font = ExtResource("1_ig7tw")
 theme_override_font_sizes/normal_font_size = 70
@@ -4916,10 +5107,10 @@ vertical_alignment = 1
 script = ExtResource("11_0dhbp")
 
 [node name="Title" type="RichTextLabel" parent="Credits"]
-offset_left = 3030.0
-offset_top = 88.0
-offset_right = 3654.0
-offset_bottom = 200.0
+offset_left = 3050.0
+offset_top = 100.0
+offset_right = 3550.0
+offset_bottom = 225.0
 theme_override_colors/default_color = Color(1, 1, 0, 1)
 theme_override_fonts/normal_font = ExtResource("1_ig7tw")
 theme_override_font_sizes/normal_font_size = 60
@@ -4929,10 +5120,10 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Name" type="RichTextLabel" parent="Credits"]
-offset_left = 3185.0
-offset_top = 188.0
-offset_right = 3488.0
-offset_bottom = 237.0
+offset_left = 3150.0
+offset_top = 200.0
+offset_right = 3450.0
+offset_bottom = 250.0
 theme_override_colors/default_color = Color(1, 1, 0, 1)
 theme_override_fonts/normal_font = ExtResource("1_ig7tw")
 theme_override_font_sizes/normal_font_size = 30
@@ -4943,10 +5134,10 @@ vertical_alignment = 1
 
 [node name="Roles" type="RichTextLabel" parent="Credits"]
 modulate = Color(1, 1, 1, 0)
-offset_left = 3040.0
-offset_top = 272.0
-offset_right = 3634.0
-offset_bottom = 856.0
+offset_left = 3000.0
+offset_top = 300.0
+offset_right = 3600.0
+offset_bottom = 900.0
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/normal_font_size = 25
 text = "Gameplay systems developer
@@ -4958,54 +5149,410 @@ Icon artist for swords, spellbooks, and potions
 UI developer"
 
 [node name="Previous" type="Button" parent="Credits"]
-offset_left = 2928.0
-offset_top = 512.0
-offset_right = 3003.0
-offset_bottom = 584.0
+offset_left = 2900.0
+offset_top = 600.0
+offset_right = 2975.0
+offset_bottom = 675.0
 theme_override_styles/normal = SubResource("StyleBoxEmpty_kkkcx")
 icon = ExtResource("12_jx0wj")
 icon_alignment = 1
 expand_icon = true
 
 [node name="Next" type="Button" parent="Credits"]
-offset_left = 3672.0
-offset_top = 512.0
-offset_right = 3747.0
-offset_bottom = 584.0
+offset_left = 3625.0
+offset_top = 600.0
+offset_right = 3700.0
+offset_bottom = 675.0
 theme_override_styles/normal = SubResource("StyleBoxEmpty_kkkcx")
 icon = ExtResource("49_sm6fg")
 icon_alignment = 1
 expand_icon = true
 
+[node name="Development" type="Node2D" parent="."]
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Development"]
+offset_left = 5000.0
+offset_top = 100.0
+offset_right = 6600.0
+offset_bottom = 900.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Development/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Development/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+theme_override_colors/default_color = Color(1, 1, 0, 1)
+theme_override_fonts/normal_font = ExtResource("1_ig7tw")
+theme_override_font_sizes/normal_font_size = 60
+bbcode_enabled = true
+text = "[outline_size=5]DEVELOPMENT[/outline_size]"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Development/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+text = "In the beginning, all we had was an idea"
+horizontal_alignment = 1
+
+[node name="CenterContainer" type="CenterContainer" parent="Development/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Development/ScrollContainer/VBoxContainer/CenterContainer"]
+custom_minimum_size = Vector2(600, 1000)
+layout_direction = 4
+layout_mode = 2
+texture = ExtResource("13_34ol3")
+expand_mode = 1
+stretch_mode = 4
+
+[node name="HSeparator" type="HSeparator" parent="Development/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="Development/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+text = "This was how the game looked at the end of the semester."
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="CenterContainer2" type="CenterContainer" parent="Development/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Development/ScrollContainer/VBoxContainer/CenterContainer2"]
+custom_minimum_size = Vector2(800, 600)
+layout_mode = 2
+texture = ExtResource("14_c2n8d")
+expand_mode = 1
+stretch_mode = 4
+
+[node name="HSeparator2" type="HSeparator" parent="Development/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="RichTextLabel4" type="RichTextLabel" parent="Development/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+text = "At the start of the semester..."
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="CenterContainer3" type="CenterContainer" parent="Development/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Development/ScrollContainer/VBoxContainer/CenterContainer3"]
+custom_minimum_size = Vector2(800, 600)
+layout_direction = 4
+layout_mode = 2
+texture = ExtResource("76_wy5fy")
+expand_mode = 1
+stretch_mode = 4
+
+[node name="HSeparator3" type="HSeparator" parent="Development/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="RichTextLabel5" type="RichTextLabel" parent="Development/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 30
+text = "
+	For the first Sprint we focused on too
+many things. One team member was
+working on the Shop and another was
+focusing on the Art. 
+
+"
+fit_content = true
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HSeparator5" type="HSeparator" parent="Development/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="RichTextLabel6" type="RichTextLabel" parent="Development/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 30
+text = "
+	For the second Sprint we were working
+on fleshing out the game. Making the
+game more of a challenege but at the
+same time having the player feel like their
+getting stronger. 
+
+"
+fit_content = true
+horizontal_alignment = 1
+
+[node name="HSeparator4" type="HSeparator" parent="Development/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="RichTextLabel7" type="RichTextLabel" parent="Development/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 30
+text = "
+	For the third Sprint we wanted to add
+more restrictions in the game. We
+wanted the player to feel the need to get
+stronger quick. 
+
+"
+fit_content = true
+horizontal_alignment = 1
+
+[node name="HSeparator6" type="HSeparator" parent="Development/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="RichTextLabel8" type="RichTextLabel" parent="Development/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 30
+text = "
+	For the fourth sprint we focused on
+making the game harder as the player
+continued. We wanted the player to
+have a reason to continue playing. As
+well as the ability to get stronger quicker
+compared to the early game.
+
+
+
+
+"
+fit_content = true
+horizontal_alignment = 1
+
+[node name="How2Play" type="Node2D" parent="."]
+
+[node name="ScrollContainer" type="ScrollContainer" parent="How2Play"]
+offset_left = 7500.0
+offset_top = 100.0
+offset_right = 9100.0
+offset_bottom = 900.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="How2Play/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="RichTextLabel" type="RichTextLabel" parent="How2Play/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+theme_override_colors/default_color = Color(1, 1, 0, 1)
+theme_override_fonts/normal_font = ExtResource("1_ig7tw")
+theme_override_font_sizes/normal_font_size = 60
+bbcode_enabled = true
+text = "[outline_size=5]HOW TO PLAY[/outline_size]"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="How2Play/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+text = "	Being that this game is a simple
+rogue like clicker game, the basic
+concepts are really not complex.
+Simply put, click on an enemy till it
+dies."
+fit_content = true
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="How2Play/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="How2Play/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+theme_override_colors/default_color = Color(1, 1, 0, 1)
+theme_override_fonts/normal_font = ExtResource("1_ig7tw")
+theme_override_font_sizes/normal_font_size = 60
+bbcode_enabled = true
+text = "[outline_size=5]Fighting[/outline_size]"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RichTextLabel4" type="RichTextLabel" parent="How2Play/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+text = "	That being said, there is more to it
+than that. While the player is
+fighting enemies, the enemies will
+move around and fight back making
+it more difficult for the player. The
+player may block damage by right
+clicking, or attack by left clicking. To
+successfully block, whenever the
+enemy attacks, there will be a flash
+on the enemies attack and the
+player must correctly time their
+block based on the enemy flash.
+While attacking, there are swing
+timer's that most weapons force the
+player to pay attention to, a meter in
+the bottom left will signify the timer
+and if the player tries to attack too
+frequently, they will \"biff it\" and do
+1/5 of the damage you usually would. "
+fit_content = true
+horizontal_alignment = 1
+
+[node name="HSeparator2" type="HSeparator" parent="How2Play/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="RichTextLabel5" type="RichTextLabel" parent="How2Play/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+theme_override_colors/default_color = Color(1, 1, 0, 1)
+theme_override_fonts/normal_font = ExtResource("1_ig7tw")
+theme_override_font_sizes/normal_font_size = 60
+bbcode_enabled = true
+text = "[outline_size=5]Equipment[/outline_size]"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RichTextLabel6" type="RichTextLabel" parent="How2Play/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+text = "	Whenever the player beats an
+enemy, they have the choice of
+purchasing weapons, spells, items,
+or potions. The weapons have
+various upgrades such as damage
+per click boosts, more damage
+blocked when blocking, and
+DOT's (Damage over time), swords
+also have different swing timers.
+Only one sword can be owned at a
+time. Spells activate dependent on
+spell time and have varying effects
+similar to weapons and just like
+swords, only one spell can be
+owned at a time. Items are
+permanent upgrades to the players
+stats and have no limit to the
+number that can be owned. Potions
+are a temporary single round
+upgrade to player stats, the player
+can hold a maximum of three
+potions at a time and can use any
+number per turn."
+fit_content = true
+horizontal_alignment = 1
+
+[node name="HSeparator3" type="HSeparator" parent="How2Play/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="RichTextLabel7" type="RichTextLabel" parent="How2Play/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+theme_override_colors/default_color = Color(1, 1, 0, 1)
+theme_override_fonts/normal_font = ExtResource("1_ig7tw")
+theme_override_font_sizes/normal_font_size = 60
+bbcode_enabled = true
+text = "[outline_size=5]Choices[/outline_size]"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RichTextLabel8" type="RichTextLabel" parent="How2Play/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+text = "	While the player is progressing,
+they will stumble upon different
+situations. These situations may vary
+from traps to new friends. A text box
+will pop up explaining the situation
+and the user will have three choices
+on how to handle it. Depending on
+what the player chooses, different
+stats may be affected such as the
+players faith, health, or player
+currency meaning the player's
+choice does make a difference and is
+important. Effects can be positive or
+negative and choices can have
+multiple effects to them."
+fit_content = true
+horizontal_alignment = 1
+
+[node name="HSeparator4" type="HSeparator" parent="How2Play/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="RichTextLabel9" type="RichTextLabel" parent="How2Play/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+theme_override_colors/default_color = Color(1, 1, 0, 1)
+theme_override_fonts/normal_font = ExtResource("1_ig7tw")
+theme_override_font_sizes/normal_font_size = 60
+bbcode_enabled = true
+text = "[outline_size=5]Progression[/outline_size]"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RichTextLabel10" type="RichTextLabel" parent="How2Play/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+text = "As the player progresses further,
+they will also encounter bosses. A
+boss appears every four fights and
+marks the end of a round. After 5
+rounds, the player wins the game.
+Don't worry though, even after
+beating the game, the player can
+continue through an infinite loop of
+fights with ever increasing difficulty.
+
+
+
+
+"
+fit_content = true
+horizontal_alignment = 1
+
 [node name="Gallery" type="Node2D" parent="."]
 script = ExtResource("9_xuqvo")
 
 [node name="SwordsButton" type="Button" parent="Gallery"]
-offset_left = 7440.0
-offset_top = 136.00003
-offset_right = 7505.0
-offset_bottom = 167.00003
+offset_left = 10095.0
+offset_top = 192.00003
+offset_right = 10160.0
+offset_bottom = 223.00003
 text = "Swords"
 
 [node name="SpellsButton" type="Button" parent="Gallery"]
-offset_left = 7520.0
-offset_top = 136.00003
-offset_right = 7585.0
-offset_bottom = 167.00003
+offset_left = 10175.0
+offset_top = 192.00003
+offset_right = 10240.0
+offset_bottom = 223.00003
 text = "Spells"
 
 [node name="EnemiesButton" type="Button" parent="Gallery"]
-offset_left = 7600.0
-offset_top = 136.0
-offset_right = 7674.0
-offset_bottom = 167.0
+offset_left = 10255.0
+offset_top = 192.0
+offset_right = 10329.0
+offset_bottom = 223.0
 text = "Enemies"
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Gallery"]
-offset_left = 7832.0
-offset_top = 88.00003
-offset_right = 8456.0
-offset_bottom = 200.00003
+offset_left = 10500.0
+offset_top = 100.0
+offset_right = 11100.0
+offset_bottom = 200.0
 theme_override_colors/default_color = Color(1, 1, 0, 1)
 theme_override_fonts/normal_font = ExtResource("1_ig7tw")
 theme_override_font_sizes/normal_font_size = 60
@@ -5015,10 +5562,10 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="SwordsContainer" type="ScrollContainer" parent="Gallery"]
-offset_left = 7440.0
-offset_top = 176.00003
-offset_right = 8848.0
-offset_bottom = 560.0
+offset_left = 10095.0
+offset_top = 232.00003
+offset_right = 11503.0
+offset_bottom = 616.0
 
 [node name="GridContainer" type="GridContainer" parent="Gallery/SwordsContainer"]
 layout_mode = 2
@@ -5170,10 +5717,10 @@ expand_icon = true
 
 [node name="SpellsContainer" type="ScrollContainer" parent="Gallery"]
 visible = false
-offset_left = 7440.0
-offset_top = 176.0
-offset_right = 8848.0
-offset_bottom = 560.0
+offset_left = 10095.0
+offset_top = 232.0
+offset_right = 11503.0
+offset_bottom = 616.0
 
 [node name="GridContainer" type="GridContainer" parent="Gallery/SpellsContainer"]
 layout_mode = 2
@@ -5305,10 +5852,10 @@ expand_icon = true
 
 [node name="EnemiesContainer" type="ScrollContainer" parent="Gallery"]
 visible = false
-offset_left = 7440.0
-offset_top = 176.0
-offset_right = 8848.0
-offset_bottom = 560.0
+offset_left = 10095.0
+offset_top = 232.0
+offset_right = 11503.0
+offset_bottom = 616.0
 
 [node name="GridContainer" type="GridContainer" parent="Gallery/EnemiesContainer"]
 layout_mode = 2
@@ -5387,20 +5934,20 @@ expand_icon = true
 
 [node name="PlayButton" type="Button" parent="Gallery"]
 modulate = Color(1, 1, 1, 0)
-offset_left = 8112.0
-offset_top = 576.0
-offset_right = 8172.0
-offset_bottom = 640.0
+offset_left = 10767.0
+offset_top = 632.0
+offset_right = 10827.0
+offset_bottom = 696.0
 theme_override_styles/normal = SubResource("StyleBoxEmpty_h0sjo")
 icon = ExtResource("49_sm6fg")
 icon_alignment = 1
 expand_icon = true
 
 [node name="TypeButton" type="Button" parent="Gallery"]
-offset_left = 8200.0
-offset_top = 592.0
-offset_right = 8280.0
-offset_bottom = 624.0
+offset_left = 10855.0
+offset_top = 648.0
+offset_right = 10935.0
+offset_bottom = 680.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
@@ -5411,20 +5958,20 @@ theme_override_styles/normal = SubResource("StyleBoxEmpty_hrvbo")
 text = "Attack"
 
 [node name="CurrentLabel" type="Label" parent="Gallery"]
-offset_left = 7448.0
-offset_top = 576.0
-offset_right = 7753.0
-offset_bottom = 618.0
+offset_left = 10103.0
+offset_top = 632.0
+offset_right = 10408.0
+offset_bottom = 674.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 30
 text = "Current Sword: None"
 
 [node name="EnemyDisplay" type="PanelContainer" parent="Gallery"]
 visible = false
-offset_left = 7872.0
-offset_top = 200.0
-offset_right = 8384.0
-offset_bottom = 768.0
+offset_left = 10530.0
+offset_top = 250.0
+offset_right = 11030.0
+offset_bottom = 825.0
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Gallery/EnemyDisplay"]
 layout_mode = 2
@@ -5453,138 +6000,29 @@ text = "Exit"
 
 [node name="PlayerArms" type="AnimatedSprite2D" parent="Gallery/PlayerAnimations"]
 texture_filter = 1
-position = Vector2(8144, 448)
+position = Vector2(10799, 504)
 scale = Vector2(7, 7)
 sprite_frames = SubResource("SpriteFrames_wu3dr")
 animation = &"punch"
 
 [node name="PlayerSpell" type="AnimatedSprite2D" parent="Gallery/PlayerAnimations"]
 texture_filter = 1
-position = Vector2(8144, 448.00003)
+position = Vector2(10799, 504)
 scale = Vector2(7, 7)
 sprite_frames = SubResource("SpriteFrames_8igct")
 animation = &"lightning_bolt"
 
 [node name="PlayerSword" type="AnimatedSprite2D" parent="Gallery/PlayerAnimations"]
 texture_filter = 1
-position = Vector2(8144, 448.00003)
+position = Vector2(10799, 504)
 scale = Vector2(7, 7)
 sprite_frames = SubResource("SpriteFrames_cyx1q")
 animation = &"poison_sword_block"
 
-[node name="Developement" type="Node2D" parent="."]
-script = ExtResource("74_gx4rg")
-
-[node name="ScrollContainer" type="ScrollContainer" parent="Developement"]
-offset_left = 5056.0
-offset_top = 112.0
-offset_right = 6592.0
-offset_bottom = 888.0
-
-[node name="VBoxContainer" type="VBoxContainer" parent="Developement/ScrollContainer"]
-layout_mode = 2
-size_flags_horizontal = 3
-size_flags_vertical = 3
-
-[node name="RichTextLabel" type="RichTextLabel" parent="Developement/ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(0, 100)
-layout_mode = 2
-theme_override_colors/default_color = Color(1, 1, 0, 1)
-theme_override_fonts/normal_font = ExtResource("1_ig7tw")
-theme_override_font_sizes/normal_font_size = 60
-bbcode_enabled = true
-text = "[outline_size=5]DEVELOPEMENT[/outline_size]"
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[node name="RichTextLabel2" type="RichTextLabel" parent="Developement/ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(0, 50)
-layout_mode = 2
-theme_override_colors/default_color = Color(0, 0, 0, 1)
-text = "In the beginning, all we had was an idea"
-horizontal_alignment = 1
-
-[node name="CenterContainer" type="CenterContainer" parent="Developement/ScrollContainer/VBoxContainer"]
-layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="Developement/ScrollContainer/VBoxContainer/CenterContainer"]
-custom_minimum_size = Vector2(600, 1000)
-layout_direction = 4
-layout_mode = 2
-texture = ExtResource("13_34ol3")
-expand_mode = 1
-stretch_mode = 4
-
-[node name="RichTextLabel3" type="RichTextLabel" parent="Developement/ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(0, 50)
-layout_mode = 2
-size_flags_horizontal = 3
-theme_override_colors/default_color = Color(0, 0, 0, 1)
-text = "This was how the game looked at the end of the semester."
-horizontal_alignment = 1
-vertical_alignment = 2
-
-[node name="CenterContainer2" type="CenterContainer" parent="Developement/ScrollContainer/VBoxContainer"]
-layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="Developement/ScrollContainer/VBoxContainer/CenterContainer2"]
-custom_minimum_size = Vector2(800, 600)
-layout_mode = 2
-texture = ExtResource("14_c2n8d")
-expand_mode = 1
-stretch_mode = 4
-
-[node name="RichTextLabel4" type="RichTextLabel" parent="Developement/ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(0, 50)
-layout_mode = 2
-theme_override_colors/default_color = Color(0, 0, 0, 1)
-text = "At the start of the semester..."
-horizontal_alignment = 1
-vertical_alignment = 2
-
-[node name="CenterContainer3" type="CenterContainer" parent="Developement/ScrollContainer/VBoxContainer"]
-layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="Developement/ScrollContainer/VBoxContainer/CenterContainer3"]
-custom_minimum_size = Vector2(800, 600)
-layout_direction = 4
-layout_mode = 2
-texture = ExtResource("76_wy5fy")
-expand_mode = 1
-stretch_mode = 4
-
-[node name="RichTextLabel5" type="RichTextLabel" parent="Developement/ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(0, 100)
-layout_mode = 2
-theme_override_colors/default_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/normal_font_size = 30
-text = "     For the first Sprint we focused on too many things. One team member was working on the Shop and another was focusing on the Art. "
-vertical_alignment = 1
-
-[node name="RichTextLabel6" type="RichTextLabel" parent="Developement/ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(0, 100)
-layout_mode = 2
-theme_override_colors/default_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/normal_font_size = 30
-text = "     For the second Sprint we were working on fleshing out the game. Making the game more of a challenege but at the same time having the player feel like their getting stronger. "
-
-[node name="RichTextLabel7" type="RichTextLabel" parent="Developement/ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(0, 100)
-layout_mode = 2
-theme_override_colors/default_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/normal_font_size = 30
-text = "     For the third Sprint we wanted to add more restrections in the game. We wanted the player to feel the need to get stronger quick. "
-
-[node name="RichTextLabel8" type="RichTextLabel" parent="Developement/ScrollContainer/VBoxContainer"]
-custom_minimum_size = Vector2(0, 200)
-layout_mode = 2
-theme_override_colors/default_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/normal_font_size = 30
-text = "     For the fourth sprint we focused on making the game harder as the player continued. We wanted the player to have a reason to continue playing. As well as the ability to get stronger quicker compared to the early game."
-
 [connection signal="pressed" from="UI/HBoxContainer/HomeButton" to="." method="_on_home_button_pressed"]
 [connection signal="pressed" from="UI/HBoxContainer/Credits" to="." method="_on_credits_pressed"]
-[connection signal="pressed" from="UI/HBoxContainer/Developement" to="." method="_on_developement_pressed"]
+[connection signal="pressed" from="UI/HBoxContainer/Development" to="." method="_on_development_pressed"]
+[connection signal="pressed" from="UI/HBoxContainer/How2Play" to="." method="_on_how_2_play_pressed"]
 [connection signal="pressed" from="UI/HBoxContainer/Gallery" to="." method="_on_gallery_pressed"]
 [connection signal="pressed" from="UI/DarkModeButton" to="." method="_on_dark_mode_button_pressed"]
 [connection signal="pressed" from="Credits/Previous" to="." method="_on_previous_pressed"]

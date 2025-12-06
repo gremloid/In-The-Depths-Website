@@ -115,9 +115,15 @@ func _on_next_pressed() -> void:
 	$Credits.next_pressed()
 	$AnimationPlayer.play('credits_fade_in')
 
+func _on_development_pressed() -> void:
+	center = $CenterNodes/DevelopmentCenter.global_position
+	$Camera2D.position_smoothing_speed = 5
+	center_camera_x()
+	center_camera_y()
+	$Camera2D.position_smoothing_speed = 2
 
-func _on_developement_pressed() -> void:
-	center = $CenterNodes/DevelopementCenter.global_position
+func _on_how_2_play_pressed() -> void:
+	center = $CenterNodes/How2PlayCenter.global_position
 	$Camera2D.position_smoothing_speed = 5
 	center_camera_x()
 	center_camera_y()
