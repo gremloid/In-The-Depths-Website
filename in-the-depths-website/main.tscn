@@ -5015,7 +5015,6 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="SwordsContainer" type="ScrollContainer" parent="Gallery"]
-visible = false
 offset_left = 7440.0
 offset_top = 176.00003
 offset_right = 8848.0
@@ -5305,6 +5304,7 @@ icon_alignment = 1
 expand_icon = true
 
 [node name="EnemiesContainer" type="ScrollContainer" parent="Gallery"]
+visible = false
 offset_left = 7440.0
 offset_top = 176.0
 offset_right = 8848.0
