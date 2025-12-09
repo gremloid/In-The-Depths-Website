@@ -1,4 +1,4 @@
-[gd_scene load_steps=593 format=3 uid="uid://cqow47bch5ocs"]
+[gd_scene load_steps=613 format=3 uid="uid://cqow47bch5ocs"]
 
 [ext_resource type="Script" uid="uid://bs2qeucwtife5" path="res://main.gd" id="1_0xm2m"]
 [ext_resource type="FontFile" uid="uid://cuewmctm1qfdf" path="res://Fonts/Papyrus.ttc" id="1_ig7tw"]
@@ -75,18 +75,35 @@
 [ext_resource type="Texture2D" uid="uid://ng3onoe0rbdt" path="res://Art/Enemy-Sprites/GREMLIN.png" id="44_41lik"]
 [ext_resource type="Texture2D" uid="uid://c3movyd8te5db" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Katana-Player-Sprite-Block.png" id="44_rqtf5"]
 [ext_resource type="Texture2D" uid="uid://bdyeonegnrqdj" path="res://Art/Enemy-Sprites/Skeleton_Sprite.png" id="45_jbvwl"]
+[ext_resource type="Texture2D" uid="uid://dk7xlwlrg6lvb" path="res://Art/Item-Sprites/armor_up.png" id="45_wat4s"]
 [ext_resource type="Texture2D" uid="uid://v468hu2pio1f" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Leaf-Blade-Player-Sprite-Block.png" id="46_1vm84"]
 [ext_resource type="Texture2D" uid="uid://dlig2syja085u" path="res://Art/Enemy-Sprites/Spider_Sprite.png" id="46_sn1fb"]
+[ext_resource type="Texture2D" uid="uid://bsb1kmx6bgh0m" path="res://Art/Item-Sprites/a_bleeding_heart.png" id="46_ywjan"]
+[ext_resource type="Texture2D" uid="uid://bo8wq82253rs4" path="res://Art/Item-Sprites/bare_it_All.png" id="47_m74q3"]
 [ext_resource type="Texture2D" uid="uid://kp63qnh2fqc3" path="res://Art/Enemy-Sprites/Thief.png" id="47_yvsr8"]
+[ext_resource type="Texture2D" uid="uid://jlv16rwil01g" path="res://Art/Item-Sprites/book_lamp_sprite.png" id="48_tko6h"]
 [ext_resource type="Texture2D" uid="uid://cros1qvfe23ep" path="res://Art/Enemy-Sprites/Zombie_Sprite.png" id="48_vieuh"]
 [ext_resource type="Texture2D" uid="uid://cv73b5ip0yx50" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Frost-Axe-Player-Block.png" id="48_wu3dr"]
+[ext_resource type="Texture2D" uid="uid://bgkynmpabu0pg" path="res://Art/Item-Sprites/calculator_sprite.png" id="49_am8a1"]
 [ext_resource type="Texture2D" uid="uid://b7aoav3ddd1fa" path="res://Art/Website-Icons/play-icon-lightmode.png" id="49_sm6fg"]
+[ext_resource type="Texture2D" uid="uid://bwnsbwtex5b2m" path="res://Art/Item-Sprites/coin_flip_sprite.png" id="50_8dc3g"]
 [ext_resource type="Texture2D" uid="uid://dxbqlclosy482" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Lightning-Sword-Player-Sprite-Block.png" id="50_cyx1q"]
+[ext_resource type="Texture2D" uid="uid://divnwrovsb0j0" path="res://Art/Item-Sprites/glasses_sprite.png" id="51_htgcl"]
 [ext_resource type="Texture2D" uid="uid://dxoexn52ac8l1" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Ol-Slashy-Sprite-Block.png" id="52_0dhbp"]
+[ext_resource type="Texture2D" uid="uid://c5xwjlwyfm4x8" path="res://Art/Item-Sprites/growth_sticker.png" id="52_smeu8"]
+[ext_resource type="Texture2D" uid="uid://bljqg2rruud5v" path="res://Art/Item-Sprites/lightning-sticker.png" id="53_f3y11"]
+[ext_resource type="Texture2D" uid="uid://rpt62f30i8pi" path="res://Art/Item-Sprites/living_heart_sprite.png" id="54_cpm2s"]
 [ext_resource type="Texture2D" uid="uid://dxc0yfykieidr" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Poison-Sword-Player-Sprite-Block.png" id="54_jx0wj"]
+[ext_resource type="Texture2D" uid="uid://xq7gfu48cjml" path="res://Art/Item-Sprites/shattered_crown.png" id="55_u81y6"]
 [ext_resource type="Texture2D" uid="uid://dimphk6kjpjd6" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Saber-Of-Light-Player-Sprite-Block.png" id="56_kkkcx"]
+[ext_resource type="Texture2D" uid="uid://b8vpjtveh7wtj" path="res://Art/Item-Sprites/shield_sprite.png" id="56_rt5wr"]
+[ext_resource type="Texture2D" uid="uid://b6oqqnvqk0fty" path="res://Art/Item-Sprites/spell_master_sprite.png" id="57_mnw77"]
 [ext_resource type="Texture2D" uid="uid://cwh5ohyd8aits" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Shield-On-A-Stick-Player-Sprite-Block.png" id="58_34ol3"]
+[ext_resource type="Texture2D" uid="uid://dlju8bka6cxq8" path="res://Art/Item-Sprites/sports_drink_sprite.png" id="58_vjgyh"]
+[ext_resource type="Texture2D" uid="uid://0d6lk74d2tdw" path="res://Art/Item-Sprites/stopwatch_sprite.png" id="59_d5iia"]
+[ext_resource type="Texture2D" uid="uid://d3hek8iwhus40" path="res://Art/Item-Sprites/the_first.png" id="60_asu84"]
 [ext_resource type="Texture2D" uid="uid://d0ot8d71qx216" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Slime-Sword-Player-Sprite-Block.png" id="60_c2n8d"]
+[ext_resource type="Texture2D" uid="uid://bf2sgyq832fbv" path="res://Art/Item-Sprites/the_last.png" id="61_qwt6e"]
 [ext_resource type="Texture2D" uid="uid://cf8d4gq5bldq6" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Wooden-Axe-Player-Block.png" id="62_wy5fy"]
 [ext_resource type="Texture2D" uid="uid://bxqglfi8wfp4p" path="res://Art/Player-Sprites/Sword-Sprites/Block-Sprites/Wooden-Sword-Player-Sprite-Block.png" id="64_gx4rg"]
 [ext_resource type="Texture2D" uid="uid://dqinq3btk0eyk" path="res://Art/Website-Icons/FirstRendition.png" id="76_wy5fy"]
@@ -199,7 +216,7 @@ tracks/3/keys = {
 tracks/4/type = "value"
 tracks/4/imported = false
 tracks/4/enabled = true
-tracks/4/path = NodePath("Gallery/CurrentLabel:theme_override_colors/font_color")
+tracks/4/path = NodePath("Gallery/ScrollContainer/CurrentLabel:theme_override_colors/font_color")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
@@ -532,6 +549,58 @@ tracks/31/keys = {
 "update": 0,
 "values": [Color(0, 0, 0, 1)]
 }
+tracks/32/type = "value"
+tracks/32/imported = false
+tracks/32/enabled = true
+tracks/32/path = NodePath("Gallery/SynergyText:theme_override_colors/font_color")
+tracks/32/interp = 1
+tracks/32/loop_wrap = true
+tracks/32/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 0.84313726, 0, 1)]
+}
+tracks/33/type = "value"
+tracks/33/imported = false
+tracks/33/enabled = true
+tracks/33/path = NodePath("Gallery/SynSprite:modulate")
+tracks/33/interp = 1
+tracks/33/loop_wrap = true
+tracks/33/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_wat4s"]
+resource_name = "Synergy"
+length = 2.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Gallery/SynergyText:theme_override_colors/font_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.75, 1.75, 2.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 0.84313726, 0, 0), Color(1, 0.84313726, 0, 1), Color(1, 0.84313726, 0, 1), Color(1, 0.84313726, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Gallery/SynSprite:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.75, 1.75, 2.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
 
 [sub_resource type="Animation" id="Animation_34ol3"]
 resource_name = "credits_fade_in"
@@ -643,7 +712,7 @@ tracks/3/keys = {
 tracks/4/type = "value"
 tracks/4/imported = false
 tracks/4/enabled = true
-tracks/4/path = NodePath("Gallery/CurrentLabel:theme_override_colors/font_color")
+tracks/4/path = NodePath("Gallery/ScrollContainer/CurrentLabel:theme_override_colors/font_color")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
@@ -1010,7 +1079,7 @@ tracks/3/keys = {
 tracks/4/type = "value"
 tracks/4/imported = false
 tracks/4/enabled = true
-tracks/4/path = NodePath("Gallery/CurrentLabel:theme_override_colors/font_color")
+tracks/4/path = NodePath("Gallery/ScrollContainer/CurrentLabel:theme_override_colors/font_color")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
@@ -1323,6 +1392,7 @@ tracks/29/keys = {
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_kek77"]
 _data = {
 &"RESET": SubResource("Animation_272bh"),
+&"Synergy": SubResource("Animation_wat4s"),
 &"credits_fade_in": SubResource("Animation_34ol3"),
 &"credits_fade_out": SubResource("Animation_kkkcx"),
 &"dark_mode": SubResource("Animation_7mycd"),
@@ -4975,6 +5045,39 @@ animations = [{
 "speed": 10.0
 }]
 
+[sub_resource type="Animation" id="Animation_ywjan"]
+resource_name = "Synergy"
+length = 2.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("SynergyText:theme_override_colors/font_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.75, 1.75, 2.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 0.84313726, 0, 0), Color(1, 0.84313726, 0, 1), Color(1, 0.84313726, 0, 1), Color(1, 0.84313726, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("SynSprite:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.75, 1.75, 2.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_m74q3"]
+_data = {
+&"Synergy": SubResource("Animation_ywjan")
+}
+
 [node name="Main" type="Node2D"]
 script = ExtResource("1_0xm2m")
 
@@ -5548,6 +5651,13 @@ offset_right = 10329.0
 offset_bottom = 223.0
 text = "Enemies"
 
+[node name="ItemsButton" type="Button" parent="Gallery"]
+offset_left = 10344.0
+offset_top = 192.0
+offset_right = 10418.0
+offset_bottom = 223.0
+text = "Items"
+
 [node name="RichTextLabel" type="RichTextLabel" parent="Gallery"]
 offset_left = 10500.0
 offset_top = 100.0
@@ -5932,6 +6042,218 @@ icon = ExtResource("41_h6isl")
 icon_alignment = 1
 expand_icon = true
 
+[node name="ItemsContainer" type="ScrollContainer" parent="Gallery"]
+visible = false
+clip_contents = false
+offset_left = 10095.0
+offset_top = 232.0
+offset_right = 11503.0
+offset_bottom = 616.0
+
+[node name="GridContainer" type="GridContainer" parent="Gallery/ItemsContainer"]
+clip_contents = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+columns = 5
+
+[node name="ArmorUp" type="Button" parent="Gallery/ItemsContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "Armor Up"
+toggle_mode = true
+icon = ExtResource("45_wat4s")
+icon_alignment = 1
+expand_icon = true
+
+[node name="ABleedingHeart" type="Button" parent="Gallery/ItemsContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "A Bleeding Heart"
+toggle_mode = true
+icon = ExtResource("46_ywjan")
+icon_alignment = 1
+expand_icon = true
+
+[node name="BareItAll" type="Button" parent="Gallery/ItemsContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "Bare It All"
+toggle_mode = true
+icon = ExtResource("47_m74q3")
+icon_alignment = 1
+expand_icon = true
+
+[node name="BookLamp" type="Button" parent="Gallery/ItemsContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "Book Lamp"
+toggle_mode = true
+icon = ExtResource("48_tko6h")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Calculator" type="Button" parent="Gallery/ItemsContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "Calculator"
+toggle_mode = true
+icon = ExtResource("49_am8a1")
+icon_alignment = 1
+expand_icon = true
+
+[node name="CoinFlip" type="Button" parent="Gallery/ItemsContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "Coin Flip"
+toggle_mode = true
+icon = ExtResource("50_8dc3g")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Glasses" type="Button" parent="Gallery/ItemsContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+tooltip_text = "Glasses"
+toggle_mode = true
+icon = ExtResource("51_htgcl")
+icon_alignment = 1
+expand_icon = true
+
+[node name="GrowthSticker" type="Button" parent="Gallery/ItemsContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+tooltip_text = "Growth Sticker"
+toggle_mode = true
+icon = ExtResource("52_smeu8")
+icon_alignment = 1
+expand_icon = true
+
+[node name="LightningSticker" type="Button" parent="Gallery/ItemsContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "Lightning Sticker"
+toggle_mode = true
+icon = ExtResource("53_f3y11")
+icon_alignment = 1
+expand_icon = true
+
+[node name="LivingHeart" type="Button" parent="Gallery/ItemsContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "Living Heart"
+toggle_mode = true
+icon = ExtResource("54_cpm2s")
+icon_alignment = 1
+expand_icon = true
+
+[node name="ShatteredCrown" type="Button" parent="Gallery/ItemsContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "Shattered Crown"
+toggle_mode = true
+icon = ExtResource("55_u81y6")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Shield" type="Button" parent="Gallery/ItemsContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "Shield"
+toggle_mode = true
+icon = ExtResource("56_rt5wr")
+icon_alignment = 1
+expand_icon = true
+
+[node name="SpellMaster" type="Button" parent="Gallery/ItemsContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "Spell Master"
+toggle_mode = true
+icon = ExtResource("57_mnw77")
+icon_alignment = 1
+expand_icon = true
+
+[node name="SportsDrink" type="Button" parent="Gallery/ItemsContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "Sports Drink"
+toggle_mode = true
+icon = ExtResource("58_vjgyh")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Stopwatch" type="Button" parent="Gallery/ItemsContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "Stopwatch"
+toggle_mode = true
+icon = ExtResource("59_d5iia")
+icon_alignment = 1
+expand_icon = true
+
+[node name="TheFirst" type="Button" parent="Gallery/ItemsContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "The First"
+toggle_mode = true
+icon = ExtResource("60_asu84")
+icon_alignment = 1
+expand_icon = true
+
+[node name="TheLast" type="Button" parent="Gallery/ItemsContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "The Last"
+toggle_mode = true
+icon = ExtResource("61_qwt6e")
+icon_alignment = 1
+expand_icon = true
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Gallery"]
+offset_left = 10096.0
+offset_top = 624.0
+offset_right = 11520.0
+offset_bottom = 768.0
+
+[node name="CurrentLabel" type="Label" parent="Gallery/ScrollContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+text = "Current Sword: None"
+
 [node name="PlayButton" type="Button" parent="Gallery"]
 modulate = Color(1, 1, 1, 0)
 offset_left = 10767.0
@@ -5956,15 +6278,6 @@ theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
 theme_override_colors/font_disabled_color = Color(0, 0, 0, 0.5019608)
 theme_override_styles/normal = SubResource("StyleBoxEmpty_hrvbo")
 text = "Attack"
-
-[node name="CurrentLabel" type="Label" parent="Gallery"]
-offset_left = 10103.0
-offset_top = 632.0
-offset_right = 10408.0
-offset_bottom = 674.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 30
-text = "Current Sword: None"
 
 [node name="EnemyDisplay" type="PanelContainer" parent="Gallery"]
 visible = false
@@ -5996,6 +6309,11 @@ size_flags_horizontal = 8
 size_flags_vertical = 0
 text = "Exit"
 
+[node name="SynSprite" type="Sprite2D" parent="Gallery"]
+modulate = Color(1, 1, 1, 0)
+position = Vector2(10800, 327)
+scale = Vector2(4.539064, 4.539064)
+
 [node name="PlayerAnimations" type="Node2D" parent="Gallery"]
 
 [node name="PlayerArms" type="AnimatedSprite2D" parent="Gallery/PlayerAnimations"]
@@ -6014,10 +6332,26 @@ animation = &"lightning_bolt"
 
 [node name="PlayerSword" type="AnimatedSprite2D" parent="Gallery/PlayerAnimations"]
 texture_filter = 1
-position = Vector2(10799, 504)
+position = Vector2(10944.001, 503.99997)
 scale = Vector2(7, 7)
 sprite_frames = SubResource("SpriteFrames_cyx1q")
 animation = &"poison_sword_block"
+
+[node name="SynAnimationPlayer" type="AnimationPlayer" parent="Gallery"]
+libraries = {
+&"": SubResource("AnimationLibrary_m74q3")
+}
+
+[node name="SynergyText" type="Label" parent="Gallery"]
+offset_left = 10418.0
+offset_top = 192.0
+offset_right = 11194.0
+offset_bottom = 270.0
+theme_override_colors/font_color = Color(1, 0.84313726, 0, 1)
+theme_override_fonts/font = ExtResource("1_ig7tw")
+theme_override_font_sizes/font_size = 50
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [connection signal="pressed" from="UI/HBoxContainer/HomeButton" to="." method="_on_home_button_pressed"]
 [connection signal="pressed" from="UI/HBoxContainer/Credits" to="." method="_on_credits_pressed"]
@@ -6030,6 +6364,7 @@ animation = &"poison_sword_block"
 [connection signal="pressed" from="Gallery/SwordsButton" to="Gallery" method="_on_swords_button_pressed"]
 [connection signal="pressed" from="Gallery/SpellsButton" to="Gallery" method="_on_spells_button_pressed"]
 [connection signal="pressed" from="Gallery/EnemiesButton" to="Gallery" method="_on_enemies_button_pressed"]
+[connection signal="pressed" from="Gallery/ItemsButton" to="Gallery" method="_on_items_button_pressed"]
 [connection signal="pressed" from="Gallery/SwordsContainer/GridContainer/WoodenSwordButton" to="Gallery" method="_on_wooden_sword_button_pressed"]
 [connection signal="pressed" from="Gallery/SwordsContainer/GridContainer/WoodenAxeButton" to="Gallery" method="_on_wooden_axe_button_pressed"]
 [connection signal="pressed" from="Gallery/SwordsContainer/GridContainer/LeafBladeButton" to="Gallery" method="_on_leaf_blade_button_pressed"]
@@ -6063,6 +6398,23 @@ animation = &"poison_sword_block"
 [connection signal="pressed" from="Gallery/EnemiesContainer/GridContainer/ThiefButton" to="Gallery" method="_on_thief_button_pressed"]
 [connection signal="pressed" from="Gallery/EnemiesContainer/GridContainer/GremlinButton" to="Gallery" method="_on_gremlin_button_pressed"]
 [connection signal="pressed" from="Gallery/EnemiesContainer/GridContainer/DemonButton" to="Gallery" method="_on_demon_button_pressed"]
+[connection signal="toggled" from="Gallery/ItemsContainer/GridContainer/ArmorUp" to="Gallery" method="_on_armor_up_toggled"]
+[connection signal="toggled" from="Gallery/ItemsContainer/GridContainer/ABleedingHeart" to="Gallery" method="_on_a_bleeding_heart_toggled"]
+[connection signal="toggled" from="Gallery/ItemsContainer/GridContainer/BareItAll" to="Gallery" method="_on_bare_it_all_toggled"]
+[connection signal="toggled" from="Gallery/ItemsContainer/GridContainer/BookLamp" to="Gallery" method="_on_book_lamp_toggled"]
+[connection signal="toggled" from="Gallery/ItemsContainer/GridContainer/Calculator" to="Gallery" method="_on_calculator_toggled"]
+[connection signal="toggled" from="Gallery/ItemsContainer/GridContainer/CoinFlip" to="Gallery" method="_on_coin_flip_toggled"]
+[connection signal="toggled" from="Gallery/ItemsContainer/GridContainer/Glasses" to="Gallery" method="_on_glasses_toggled"]
+[connection signal="toggled" from="Gallery/ItemsContainer/GridContainer/GrowthSticker" to="Gallery" method="_on_growth_sticker_toggled"]
+[connection signal="toggled" from="Gallery/ItemsContainer/GridContainer/LightningSticker" to="Gallery" method="_on_lightning_sticker_toggled"]
+[connection signal="toggled" from="Gallery/ItemsContainer/GridContainer/LivingHeart" to="Gallery" method="_on_living_heart_toggled"]
+[connection signal="toggled" from="Gallery/ItemsContainer/GridContainer/ShatteredCrown" to="Gallery" method="_on_shattered_crown_toggled"]
+[connection signal="toggled" from="Gallery/ItemsContainer/GridContainer/Shield" to="Gallery" method="_on_shield_toggled"]
+[connection signal="toggled" from="Gallery/ItemsContainer/GridContainer/SpellMaster" to="Gallery" method="_on_spell_master_toggled"]
+[connection signal="toggled" from="Gallery/ItemsContainer/GridContainer/SportsDrink" to="Gallery" method="_on_sports_drink_toggled"]
+[connection signal="toggled" from="Gallery/ItemsContainer/GridContainer/Stopwatch" to="Gallery" method="_on_stopwatch_toggled"]
+[connection signal="toggled" from="Gallery/ItemsContainer/GridContainer/TheFirst" to="Gallery" method="_on_the_first_toggled"]
+[connection signal="toggled" from="Gallery/ItemsContainer/GridContainer/TheLast" to="Gallery" method="_on_the_last_toggled"]
 [connection signal="pressed" from="Gallery/PlayButton" to="Gallery" method="_on_play_button_pressed"]
 [connection signal="pressed" from="Gallery/TypeButton" to="Gallery" method="_on_type_button_pressed"]
 [connection signal="pressed" from="Gallery/EnemyDisplay/Close" to="Gallery" method="_on_close_pressed"]

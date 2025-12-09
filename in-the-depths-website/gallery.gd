@@ -12,6 +12,8 @@ var animation_type = 'Attack'
 
 var current_spell = 'None'
 var current_sword = 'None'
+var current_item = []
+var current_synergy = []
 
 func _process(delta: float) -> void:
 	if current_sword != 'None' and $SwordsButton.disabled == true:
@@ -28,32 +30,44 @@ func _on_spells_button_pressed() -> void:
 	$SwordsContainer.visible = false
 	$EnemiesContainer.visible = false
 	$SpellsContainer.visible = true
+	$ItemsContainer.visible = false
 	$SpellsButton.disabled = true
 	$SwordsButton.disabled = false
 	$EnemiesButton.disabled = false
-	$CurrentLabel.visible = true
-	$CurrentLabel.text = 'Current Spell: ' + str(current_spell)
+	$ItemsButton.disabled = false
+	$PlayButton.visible = true
+	$TypeButton.visible = true
+	$ScrollContainer/CurrentLabel.visible = true
+	$ScrollContainer/CurrentLabel.text = 'Current Spell: ' + str(current_spell)
 
 func _on_swords_button_pressed() -> void:
 	animation_class = 'Sword'
 	$EnemiesContainer.visible = false
 	$SpellsContainer.visible = false
 	$SwordsContainer.visible = true
+	$ItemsContainer.visible = false
 	$SwordsButton.disabled = true
 	$SpellsButton.disabled = false
 	$EnemiesButton.disabled = false
-	$CurrentLabel.visible = true
-	$CurrentLabel.text = 'Current Sword: ' + str(current_sword)
+	$ItemsButton.disabled = false
+	$PlayButton.visible = true
+	$TypeButton.visible = true
+	$ScrollContainer/CurrentLabel.visible = true
+	$ScrollContainer/CurrentLabel.text = 'Current Sword: ' + str(current_sword)
 
 func _on_enemies_button_pressed() -> void:
 	animation_class = 'None'
 	$SwordsContainer.visible = false
 	$SpellsContainer.visible = false
 	$EnemiesContainer.visible = true
+	$ItemsContainer.visible = false
 	$SwordsButton.disabled = false
 	$SpellsButton.disabled = false
 	$EnemiesButton.disabled = true
-	$CurrentLabel.visible = false
+	$ItemsButton.disabled = false
+	$PlayButton.visible = true
+	$TypeButton.visible = true
+	$ScrollContainer/CurrentLabel.visible = false
 	
 func _on_play_button_pressed() -> void:
 	if (animation_class == 'Sword' and current_sword == 'None') or (animation_class == 'Spell' and current_spell == 'None'):
@@ -79,13 +93,13 @@ func _on_play_button_pressed() -> void:
 
 func set_text(text):
 	if animation_class == 'Spell':
-		$CurrentLabel.text = 'Current Spell: ' + str(text)
+		$ScrollContainer/CurrentLabel.text = 'Current Spell: ' + str(text)
 	else:
-		$CurrentLabel.text = 'Current Sword: ' + str(text)
+		$ScrollContainer/CurrentLabel.text = 'Current Sword: ' + str(text)
 
 func _on_type_button_pressed() -> void:
 	if animation_type == 'Attack':
-		animation_type = 'Block'
+		animation_type = 'Block' 
 		$TypeButton.text = 'Block'
 	else:
 		animation_type = 'Attack'
@@ -307,3 +321,195 @@ func _on_demon_button_pressed() -> void:
 
 func _on_close_pressed() -> void:
 	$EnemyDisplay.visible = false
+
+
+func _on_items_button_pressed() -> void:
+	animation_class = 'None'
+	$SwordsContainer.visible = false
+	$SpellsContainer.visible = false
+	$EnemiesContainer.visible = false
+	$ItemsContainer.visible = true
+	$SwordsButton.disabled = false
+	$SpellsButton.disabled = false
+	$EnemiesButton.disabled = false
+	$ItemsButton.disabled = true
+	$PlayButton.visible = false
+	$TypeButton.visible = false
+	$ScrollContainer/CurrentLabel.visible = true
+	checkSynergy()
+
+func checkSynergy():
+	if current_item.has('Book Lamp') && current_item.has('Glasses') && current_item.has('Spell Master') && !current_synergy.has('Spell Doctor'):
+		$SynergyText.text = 'Spell Doctor'
+		$SynSprite.texture = load("res://Art/Item-Sprites/spell_doctor.png")
+		$SynAnimationPlayer.play('Synergy')
+		current_synergy.append('Spell Doctor')
+	elif (!current_item.has('Book Lamp') || !current_item.has('Glasses') || !current_item.has('Spell Master')) && current_synergy.has('Spell Doctor'):
+		current_synergy.erase('Spell Doctor')
+	if current_item.has('Calculator') && current_item.has('Coin Flip') && !current_synergy.has('Don\'t Tell Me The Odds!'):
+		$SynergyText.text = 'Don\'t Tell Me The Odds!'
+		$SynSprite.texture = load("res://Art/Item-Sprites/dont_tell_me_the_odds!.png")
+		$SynAnimationPlayer.play('Synergy')
+		current_synergy.append('Don\'t Tell Me The Odds!')
+	elif (!current_item.has('Calculator') || !current_item.has('Coin Flip')) && current_synergy.has('Don\'t Tell Me The Odds!'):
+		current_synergy.erase('Don\'t Tell Me The Odds!')
+	if current_item.has('A Living Heart') && current_item.has('Sports Drink') && !current_synergy.has('Athlete\'s Dream'):
+		$SynergyText.text = 'Athlete\'s Dream'
+		$SynSprite.texture = load("res://Art/Item-Sprites/athletes_dream.png")
+		$SynAnimationPlayer.play('Synergy')
+		current_synergy.append('Athlete\'s Dream')
+	elif (!current_item.has('A Living Heart') || !current_item.has('Sports Drink')) && current_synergy.has('Athlete\'s Dream'):
+		current_synergy.erase('Athlete\'s Dream')
+	if current_item.has('The Last') && current_item.has('Shattered Crown') && current_item.has('A Bleeding Heart') && !current_synergy.has('The Fool'):
+		$SynergyText.text = 'The Fool'
+		$SynSprite.texture = load("res://Art/Item-Sprites/the_fool.png")
+		$SynAnimationPlayer.play('Synergy')
+		current_synergy.append('The Fool')
+	elif (!current_item.has('The Last') || !current_item.has('Shattered Crown') || !current_item.has('A Bleeding Heart')) && current_synergy.has('The Fool'):
+		current_synergy.erase('The Fool')
+	
+	var temp = ''
+	for item in current_item:
+		temp = temp + item + ", "
+	if current_synergy.size() > 0:
+		temp = temp + "\n"
+		var temp2 = 'Current Synergies: '
+		for syn in current_synergy:
+			temp2 = temp2 + syn + ", "
+		temp = temp + temp2
+	$ScrollContainer/CurrentLabel.text = "Current Item(s): " + temp
+
+func _on_armor_up_toggled(toggled_on: bool) -> void:
+	if toggled_on:
+		current_item.append('Armor Up')
+	else:
+		current_item.erase('Armor Up')
+	checkSynergy()
+
+
+func _on_a_bleeding_heart_toggled(toggled_on: bool) -> void:
+	if toggled_on:
+		current_item.append('A Bleeding Heart')
+	else:
+		current_item.erase('A Bleeding Heart')
+	checkSynergy()
+
+
+func _on_bare_it_all_toggled(toggled_on: bool) -> void:
+	if toggled_on:
+		current_item.append('Bare It All')
+	else:
+		current_item.erase('Bare It All')
+	checkSynergy()
+
+
+func _on_book_lamp_toggled(toggled_on: bool) -> void:
+	if toggled_on:
+		current_item.append('Book Lamp')
+	else:
+		current_item.erase('Book Lamp')
+	checkSynergy()
+
+
+func _on_calculator_toggled(toggled_on: bool) -> void:
+	if toggled_on:
+		current_item.append('Calculator')
+	else:
+		current_item.erase('Calculator')
+	checkSynergy()
+
+
+func _on_coin_flip_toggled(toggled_on: bool) -> void:
+	if toggled_on:
+		current_item.append('Coin Flip')
+	else:
+		current_item.erase('Coin Flip')
+	checkSynergy()
+
+
+func _on_glasses_toggled(toggled_on: bool) -> void:
+	if toggled_on:
+		current_item.append('Glasses')
+	else:
+		current_item.erase('Glasses')
+	checkSynergy()
+
+
+func _on_growth_sticker_toggled(toggled_on: bool) -> void:
+	if toggled_on:
+		current_item.append('Growth Sticker')
+	else:
+		current_item.erase('Growth Sticker')
+	checkSynergy()
+
+
+func _on_lightning_sticker_toggled(toggled_on: bool) -> void:
+	if toggled_on:
+		current_item.append('Lightning Sticker')
+	else:
+		current_item.erase('Lightning Sticker')
+	checkSynergy()
+
+
+func _on_living_heart_toggled(toggled_on: bool) -> void:
+	if toggled_on:
+		current_item.append('A Living Heart')
+	else:
+		current_item.erase('A Living Heart')
+	checkSynergy()
+
+
+func _on_shattered_crown_toggled(toggled_on: bool) -> void:
+	if toggled_on:
+		current_item.append('Shattered Crown')
+	else:
+		current_item.erase('Shattered Crown')
+	checkSynergy()
+
+
+func _on_shield_toggled(toggled_on: bool) -> void:
+	if toggled_on:
+		current_item.append('Shield')
+	else:
+		current_item.erase('Shield')
+	checkSynergy()
+
+
+func _on_spell_master_toggled(toggled_on: bool) -> void:
+	if toggled_on:
+		current_item.append('Spell Master')
+	else:
+		current_item.erase('Spell Master')
+	checkSynergy()
+
+
+func _on_sports_drink_toggled(toggled_on: bool) -> void:
+	if toggled_on:
+		current_item.append('Sports Drink')
+	else:
+		current_item.erase('Sports Drink')
+	checkSynergy()
+
+
+func _on_stopwatch_toggled(toggled_on: bool) -> void:
+	if toggled_on:
+		current_item.append('Stopwatch')
+	else:
+		current_item.erase('Stopwatch')
+	checkSynergy()
+
+
+func _on_the_first_toggled(toggled_on: bool) -> void:
+	if toggled_on:
+		current_item.append('The First')
+	else:
+		current_item.erase('The First')
+	checkSynergy()
+
+
+func _on_the_last_toggled(toggled_on: bool) -> void:
+	if toggled_on:
+		current_item.append('The Last')
+	else:
+		current_item.erase('The Last')
+	checkSynergy()
