@@ -8,6 +8,10 @@ var dalton_text = 'Enemy artist\n\nDetails:\n\t*Created Enemy Sprites'
 var text_array = [avery_text, tomas_text, jacob_text, dalton_text]
 var names_array = ['Avery Johnson', 'Tomas Urena', 'Jacob Muller', 'Dalton Washam']
 
+func _ready():
+	$Name.text = '[outline_size=3]' + names_array[0] + '[/outline_size]'
+	$Roles.text = avery_text
+
 var current_index = 0
 
 func next_pressed() -> void:

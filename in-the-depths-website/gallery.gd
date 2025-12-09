@@ -78,8 +78,8 @@ func _on_play_button_pressed() -> void:
 		$PlayerAnimations/PlayerArms.play(current_arms_attack_animation)
 		$PlayerAnimations/PlayerSword.play(current_weapon_attack_animation)
 		await $PlayerAnimations/PlayerArms.animation_looped
-		$PlayerAnimations/PlayerArms.stop()
 		$PlayerAnimations/PlayerSword.stop()
+		$PlayerAnimations/PlayerArms.stop()
 	elif animation_class == 'Sword' and animation_type == 'Block':
 		$PlayerAnimations/PlayerArms.play(current_arms_block_animation)
 		$PlayerAnimations/PlayerSword.play(current_weapon_block_animation)
@@ -340,28 +340,28 @@ func _on_items_button_pressed() -> void:
 
 func checkSynergy():
 	if current_item.has('Book Lamp') && current_item.has('Glasses') && current_item.has('Spell Master') && !current_synergy.has('Spell Doctor'):
-		$SynergyText.text = 'Spell Doctor'
+		$SynergyText.text = '[outline_size=5]Spell Doctor[/outline_size]'
 		$SynSprite.texture = load("res://Art/Item-Sprites/spell_doctor.png")
 		$SynAnimationPlayer.play('Synergy')
 		current_synergy.append('Spell Doctor')
 	elif (!current_item.has('Book Lamp') || !current_item.has('Glasses') || !current_item.has('Spell Master')) && current_synergy.has('Spell Doctor'):
 		current_synergy.erase('Spell Doctor')
 	if current_item.has('Calculator') && current_item.has('Coin Flip') && !current_synergy.has('Don\'t Tell Me The Odds!'):
-		$SynergyText.text = 'Don\'t Tell Me The Odds!'
+		$SynergyText.text = '[outline_size=5]Don\'t Tell Me The Odds![/outline_size]'
 		$SynSprite.texture = load("res://Art/Item-Sprites/dont_tell_me_the_odds!.png")
 		$SynAnimationPlayer.play('Synergy')
 		current_synergy.append('Don\'t Tell Me The Odds!')
 	elif (!current_item.has('Calculator') || !current_item.has('Coin Flip')) && current_synergy.has('Don\'t Tell Me The Odds!'):
 		current_synergy.erase('Don\'t Tell Me The Odds!')
 	if current_item.has('A Living Heart') && current_item.has('Sports Drink') && !current_synergy.has('Athlete\'s Dream'):
-		$SynergyText.text = 'Athlete\'s Dream'
+		$SynergyText.text = '[outline_size=5]Athlete\'s Dream[/outline_size]'
 		$SynSprite.texture = load("res://Art/Item-Sprites/athletes_dream.png")
 		$SynAnimationPlayer.play('Synergy')
 		current_synergy.append('Athlete\'s Dream')
 	elif (!current_item.has('A Living Heart') || !current_item.has('Sports Drink')) && current_synergy.has('Athlete\'s Dream'):
 		current_synergy.erase('Athlete\'s Dream')
 	if current_item.has('The Last') && current_item.has('Shattered Crown') && current_item.has('A Bleeding Heart') && !current_synergy.has('The Fool'):
-		$SynergyText.text = 'The Fool'
+		$SynergyText.text = '[outline_size=5]The Fool[/outline_size]'
 		$SynSprite.texture = load("res://Art/Item-Sprites/the_fool.png")
 		$SynAnimationPlayer.play('Synergy')
 		current_synergy.append('The Fool')

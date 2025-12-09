@@ -128,3 +128,11 @@ func _on_how_2_play_pressed() -> void:
 	center_camera_x()
 	center_camera_y()
 	$Camera2D.position_smoothing_speed = 2
+
+func _on_play_button_pressed() -> void:
+	if OS.has_feature('JavaScript'):
+		JavaScriptBridge.eval("""
+			window.open(https://gremloid.github.io/)
+		""")
+	else:
+		OS.shell_open('https://gremloid.github.io/')
