@@ -15,8 +15,8 @@ config/version="1.0"
 run/main_scene="uid://cqow47bch5ocs"
 config/features=PackedStringArray("4.5", "Forward Plus")
 boot_splash/use_filter=false
-boot_splash/image="uid://bjr2leynw34n8"
-config/icon="uid://bjr2leynw34n8"
+boot_splash/image="uid://dq1f8m3og6sth"
+config/icon="uid://dq1f8m3og6sth"
 
 [display]
 
