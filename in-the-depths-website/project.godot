@@ -11,9 +11,12 @@ config_version=5
 [application]
 
 config/name="In The Depths Website"
+config/version="1.0"
 run/main_scene="uid://cqow47bch5ocs"
 config/features=PackedStringArray("4.5", "Forward Plus")
-config/icon="res://icon.svg"
+boot_splash/use_filter=false
+boot_splash/image="uid://bjr2leynw34n8"
+config/icon="uid://bjr2leynw34n8"
 
 [display]
 
